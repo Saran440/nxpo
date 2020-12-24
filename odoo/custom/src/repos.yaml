@@ -7,8 +7,8 @@
     depth: $DEPTH_DEFAULT
   remotes:
     ocb: https://github.com/OCA/OCB.git
-    odoo: https://github.com/odoo/odoo.git
-    openupgrade: https://github.com/OCA/OpenUpgrade.git
+    # odoo: https://github.com/odoo/odoo.git
+    # openupgrade: https://github.com/OCA/OpenUpgrade.git
   target: ocb $ODOO_VERSION
   merges:
     - ocb $ODOO_VERSION
@@ -20,13 +20,10 @@ web:
     depth: $DEPTH_MERGE
   remotes:
     origin: https://github.com/OCA/web.git
-    # tecnativa: https://github.com/Tecnativa/partner-contact.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/1731/head
-    # - origin refs/pull/1007/head # web_responsive search
-    # - tecnativa 11.0-some_addon-custom # Branch for this customer only
+    - origin refs/pull/1731/head # web_widget_x2many_2d_matrix
 
 sale-workflow:
   defaults:
@@ -54,7 +51,9 @@ account-invoicing:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/812/head
+    - origin refs/pull/812/head # account_billing
+    - origin refs/pull/820/head # account_invoice_payment_retention
+    - origin refs/pull/821/head # account_invoice_payment_warranty
 
 account-financial-tools:
   defaults:
@@ -64,7 +63,8 @@ account-financial-tools:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/1082/head
+    - origin refs/pull/1082/head # account_check_deposit
+    - origin refs/pull/1081/head # account_fiscal_year
 
 operating-unit:
   defaults:
@@ -74,6 +74,11 @@ operating-unit:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/332/head # account_operating_unit
+    - origin refs/pull/346/head # hr_expense_operating_unit
+    - origin refs/pull/343/head # purchase_operating_unit
+    - origin refs/pull/348/head # purchase_request_operating_unit
+    - origin refs/pull/344/head # stock_operating_unit
 
 bank-payment:
   defaults:
@@ -92,6 +97,7 @@ account-payment:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/374/head # account_payment_multi_deduction
 
 account-analytic:
   defaults:
@@ -101,6 +107,8 @@ account-analytic:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/339/head # analytic_base_department
+    - origin refs/pull/337/head # analytic_tag_dimension
 
 server-ux:
   defaults:
@@ -110,12 +118,22 @@ server-ux:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/246/head # base_revision
 
 server-tools:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
     origin: https://github.com/OCA/server-tools.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+
+server-backend:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/server-backend.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -137,6 +155,7 @@ hr-expense:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/15/head # hr_expense_advance_clearing
 
 l10n-thailand:
   defaults:
@@ -146,6 +165,10 @@ l10n-thailand:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/206/head # l10n_th_withholding_tax_cert
+    - origin refs/pull/192/head # l10n_th_withholding_tax_cert_form
+    - origin refs/pull/209/head # l10n_th_withholding_tax_multi
+    - origin refs/pull/214/head # l10n_th_withholding_tax_report
 
 mis-builder:
   defaults:
