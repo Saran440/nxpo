@@ -1,4 +1,78 @@
-web:
-  - web_widget_x2many_2d_matrix
 account-invoicing:
   - account_billing
+  - account_invoice_payment_retention
+  - account_invoice_payment_warranty
+account-budgeting:
+  - budget_activity
+  - budget_activity_expense
+  - budget_activity_group
+  - budget_activity_monitoring
+  - budget_activity_monitoring_expense
+  - budget_activity_monitoring_purchase
+  - budget_activity_monitoring_purchase_request
+  - budget_activity_purchase
+  - budget_activity_purchase_request
+  - budget_control
+  - budget_control_advance_clearing
+  - budget_control_exception
+  - budget_control_expense
+  - budget_control_operating_unit
+  - budget_control_purchase
+  - budget_control_purchase_request
+  - budget_control_revision
+  - budget_control_revision_department_monitoring
+  - budget_control_revision_plan_readonly
+  - budget_control_transfer
+  - budget_monitoring_operating_unit
+  - budget_monitoring_operating_unit_expense
+  - budget_monitoring_operating_unit_purchase
+  - budget_monitoring_operating_unit_purchase_request
+  - budget_source_fund
+  - budget_source_fund_exception
+account-financial-tools:
+  - account_check_deposit
+  - account_fiscal_year
+  - account_menu
+operating-unit:
+  - operating_unit
+  - account_operating_unit
+  - analytic_operating_unit
+  - hr_expense_operating_unit
+  - purchase_operating_unit
+  - purchase_request_operating_unit
+  - stock_operating_unit
+bank-payment:
+  - account_payment_mode
+account-payment:
+  - account_payment_multi_deduction
+account-analytic:
+  - analytic_base_department
+  - analytic_tag_dimension
+server-ux:
+  - base_revision
+  - date_range
+server-backend:
+  - base_user_role
+hr-expense:
+  - hr_expense_advance_clearing
+l10n-thailand:
+  - l10n_th_amount_to_text
+  - l10n_th_partner
+  - l10n_th_withholding_tax
+  - l10n_th_withholding_tax_cert
+  - l10n_th_withholding_tax_cert_form
+  - l10n_th_withholding_tax_multi
+  - l10n_th_withholding_tax_report
+mis-builder:
+  - mis_builder
+  - mis_builder_budget
+partner-contact:
+  - partner_company_type
+  - partner_firstname
+purchase-workflow:
+  - purchase_request
+reporting-engine:
+  - report_xlsx
+  - report_xlsx_helper
+web:
+  - web_widget_x2many_2d_matrix
