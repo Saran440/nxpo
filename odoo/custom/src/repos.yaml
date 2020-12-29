@@ -146,6 +146,7 @@ account-budgeting:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/49/head # all budget management modules
 
 hr-expense:
   defaults:
