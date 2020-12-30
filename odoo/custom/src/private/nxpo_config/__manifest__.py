@@ -2,17 +2,19 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    "name": "NxPO - Employee Division",
+    "name": "NxPO - Configuration Data",
+    "summary": "Configuration data, to be loaded after nxpo_install"
+    "**This module can be uninstalled afterwards**",
     "version": "14.0.1.0.0",
     "license": "AGPL-3",
     "category": "NxPO",
     "author": "Ecosoft",
-    "depends": ["hr"],
+    "depends": [
+        "base",
+    ],
     "data": [
-        "security/ir.model.access.csv",
-        "views/hr_division_views.xml",
-        "views/hr_department_views.xml",
+        "data/date_range.xml",
+        "data/date.range.csv",
     ],
     "installable": True,
-    "maintainers": ["Saran440"],
 }
