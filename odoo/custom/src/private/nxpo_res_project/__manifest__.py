@@ -6,8 +6,8 @@
     "summary": "New menu Projects management with analytic",
     "version": "14.0.1.0.0",
     "license": "AGPL-3",
-    "author": "Ecosoft, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/account-budgeting",
+    "category": "NxPO",
+    "author": "Ecosoft",
     "depends": ["base", "mail"],
     "data": [
         "security/res_project_security_groups.xml",

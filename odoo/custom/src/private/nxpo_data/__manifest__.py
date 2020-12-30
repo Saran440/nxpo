@@ -2,17 +2,18 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    "name": "NxPO - Employee Division",
+    "name": "NxPO - Migration Data",
+    "summary": "Migration data, i.e., products, partners, projects, etc. "
+    "**This module can be uninstalled afterwards**",
     "version": "14.0.1.0.0",
     "license": "AGPL-3",
     "category": "NxPO",
     "author": "Ecosoft",
-    "depends": ["hr"],
+    "depends": [
+        "base",
+    ],
     "data": [
-        "security/ir.model.access.csv",
-        "views/hr_division_views.xml",
-        "views/hr_department_views.xml",
+        "data/res.project.csv",
     ],
     "installable": True,
-    "maintainers": ["Saran440"],
 }
