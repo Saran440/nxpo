@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record
+        id="base.main_partner"
+        model="res.partner"
+        context="{'default_is_company': True}"
+    >
+        <field
+            name="name"
+        >สำนักงานสภานโยบายการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรมแห่งชาติ (สอวช.)</field>
+        <field
+            name="street"
+        >319 อาคารจัตุรัสจามจุรี ชั้น 14 ถนนพญาไท แขวงปทุมวัน เขตปทุมวัน กรุงเทพฯ 10330</field>
+        <field name="currency_id" ref="base.THB" />
+    </record>
+</odoo>
