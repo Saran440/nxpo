@@ -15,6 +15,9 @@
     "data": [
         "data/date_range.xml",
         "data/date.range.csv",
+        "data/res_partner_data.xml",
+        "data/operating.unit.csv",
+        "data/hr.department.csv",
     ],
     "installable": True,
 }
