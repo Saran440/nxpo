@@ -1,0 +1,28 @@
+name: test
+
+on:
+  push:
+    branches:
+      - 14.0
+  pull_request:
+    branches:
+      - 14.0
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.6.12"
+      - uses: BSFishy/pip-action@v1
+        with:
+          packages: |
+            docker-compose
+            invoke
+            pre-commit
+      - run: invoke img-pull img-build --pull
+      - run: invoke git-aggregate
+      - run: invoke resetdb start
+      - run: invoke install -e -p
