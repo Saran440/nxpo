@@ -2,7 +2,7 @@ account-invoicing:
   - account_billing
   - account_invoice_payment_retention
   - account_invoice_payment_warranty
-account-budgeting:
+budgeting:
   - budget_activity
   - budget_activity_expense
   - budget_activity_group
@@ -29,10 +29,12 @@ account-budgeting:
   - budget_monitoring_operating_unit_purchase_request
   - budget_source_fund
   - budget_source_fund_exception
+  - mis_builder_budget_activity_group
 account-financial-tools:
   - account_check_deposit
   - account_fiscal_year
   - account_menu
+  - account_asset_management
 operating-unit:
   - operating_unit
   - account_operating_unit
@@ -53,10 +55,13 @@ server-ux:
   - date_range
 server-backend:
   - base_user_role
+server-tools:
+  - base_exception
 hr-expense:
   - hr_expense_advance_clearing
 l10n-thailand:
   - l10n_th_amount_to_text
+  - l10n_th_base_location
   - l10n_th_partner
   - l10n_th_withholding_tax
   - l10n_th_withholding_tax_cert
@@ -67,6 +72,8 @@ mis-builder:
   - mis_builder
   - mis_builder_budget
 partner-contact:
+  - base_location
+  - base_location_geonames_import
   - partner_company_type
   - partner_firstname
 purchase-workflow:

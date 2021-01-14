@@ -25,4 +25,5 @@ jobs:
       - run: invoke img-pull img-build --pull
       - run: invoke git-aggregate
       - run: invoke resetdb start
-      - run: invoke install -e -p
+      - run: invoke install -m nxpo_install
+      - run: invoke install -m nxpo_config,nxpo_data
