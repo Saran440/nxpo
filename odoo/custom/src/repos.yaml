@@ -63,6 +63,7 @@ account-financial-tools:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/1112/head # account_asset_management
     - origin refs/pull/1082/head # account_check_deposit
     - origin refs/pull/1081/head # account_fiscal_year
 
@@ -138,15 +139,14 @@ server-backend:
   merges:
     - origin $ODOO_VERSION
 
-account-budgeting:
+budgeting:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: https://github.com/OCA/account-budgeting.git
+    origin: https://github.com/ecosoft-odoo/budgeting.git
   target: origin $ODOO_VERSION
   merges:
-    - origin $ODOO_VERSION
-    - origin refs/pull/49/head # all budget management modules
+    - origin $ODOO_VERSION # all budget management modules
 
 hr-expense:
   defaults:
@@ -166,6 +166,7 @@ l10n-thailand:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/220/head # l10n_th_base_location
     - origin refs/pull/206/head # l10n_th_withholding_tax_cert
     - origin refs/pull/192/head # l10n_th_withholding_tax_cert_form
     - origin refs/pull/209/head # l10n_th_withholding_tax_multi
@@ -179,6 +180,7 @@ mis-builder:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/325/head # mis_builder, mis_builder_budget, mis_builder_demo
 
 partner-contact:
   defaults:

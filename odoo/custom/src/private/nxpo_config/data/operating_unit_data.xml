@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Default admin is D1  -->
+    <record id="base.user_root" model="res.users">
+        <field name="default_operating_unit_id" ref="base.operating_unit_D1" />
+        <field name="operating_unit_ids" eval="[(4, ref('base.operating_unit_D1'))]" />
+    </record>
+    <record id="base.user_admin" model="res.users">
+        <field name="default_operating_unit_id" ref="base.operating_unit_D1" />
+        <field name="operating_unit_ids" eval="[(4, ref('base.operating_unit_D1'))]" />
+    </record>
+</odoo>

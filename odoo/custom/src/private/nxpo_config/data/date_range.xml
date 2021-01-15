@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<odoo>
-    <record id="date_range_type_period" model="date.range.type">
-        <field name="name">Period</field>
-    </record>
-    <record id="date_range_type_year" model="date.range.type">
-        <field name="name">Year</field>
-    </record>
-</odoo>
