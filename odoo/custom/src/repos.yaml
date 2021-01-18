@@ -109,7 +109,6 @@ account-analytic:
   merges:
     - origin $ODOO_VERSION
     - origin refs/pull/339/head # analytic_base_department
-    - origin refs/pull/337/head # analytic_tag_dimension
 
 server-ux:
   defaults:
