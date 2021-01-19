@@ -42,6 +42,11 @@ purchase-workflow:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/1023/head # purchase_open_qty
+    - origin refs/pull/1016/head # purchase_isolated_rfq
+    - origin refs/pull/1021/head # purchase_work_acceptance_evaluation
+    - origin refs/pull/1020/head # purchase_work_acceptance_late_fines
+    - origin refs/pull/1025/head # purchase_work_acceptance_invoice_plan
 
 account-invoicing:
   defaults:
@@ -190,3 +195,25 @@ partner-contact:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/1018/head # partner_industry_secondary
+
+stock-logistics-warehouse:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/stock-logistics-warehouse.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - origin refs/pull/985/head # stock_request
+    - origin refs/pull/1014/head # stock_request_tier_validation
+
+stock-logistics-workflow:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/stock-logistics-workflow.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - origin refs/pull/738/head # stock_return_request
