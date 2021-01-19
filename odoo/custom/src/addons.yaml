@@ -52,6 +52,9 @@ account-analytic:
 server-ux:
   - base_revision
   - date_range
+  - base_tier_validation
+  - base_tier_validation_formula
+  - base_tier_validation_forward
 server-backend:
   - base_user_role
 server-tools:
@@ -75,8 +78,25 @@ partner-contact:
   - base_location_geonames_import
   - partner_company_type
   - partner_firstname
+  - partner_industry_secondary
 purchase-workflow:
   - purchase_request
+  - purchase_invoice_plan
+  - purchase_isolated_rfq
+  - purchase_manual_currency
+  - purchase_open_qty
+  - purchase_order_type
+  - purchase_request_tier_validation
+  - purchase_tier_validation
+  - purchase_work_acceptance
+  - purchase_work_acceptance_evaluation
+  - purchase_work_acceptance_invoice_plan
+  - purchase_work_acceptance_late_fine
+stock-logistics-warehouse:
+  - stock_request
+  - stock_request_tier_validation
+stock-logistics-workflow:
+  - stock_return_request
 reporting-engine:
   - report_xlsx
   - report_xlsx_helper
