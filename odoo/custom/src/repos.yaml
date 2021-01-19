@@ -109,7 +109,6 @@ account-analytic:
   merges:
     - origin $ODOO_VERSION
     - origin refs/pull/339/head # analytic_base_department
-    - origin refs/pull/337/head # analytic_tag_dimension
 
 server-ux:
   defaults:
@@ -147,6 +146,7 @@ budgeting:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION # all budget management modules
+    - origin refs/pull/4/head # updated all budget
 
 hr-expense:
   defaults:
@@ -156,7 +156,7 @@ hr-expense:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/15/head # hr_expense_advance_clearing
+    - origin refs/pull/25/head # hr_expense_advance_clearing
 
 l10n-thailand:
   defaults:

@@ -49,7 +49,6 @@ account-payment:
   - account_payment_multi_deduction
 account-analytic:
   - analytic_base_department
-  - analytic_tag_dimension
 server-ux:
   - base_revision
   - date_range
