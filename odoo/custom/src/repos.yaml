@@ -47,6 +47,7 @@ purchase-workflow:
     - origin refs/pull/1021/head # purchase_work_acceptance_evaluation
     - origin refs/pull/1020/head # purchase_work_acceptance_late_fines
     - origin refs/pull/1025/head # purchase_work_acceptance_invoice_plan
+    - origin refs/pull/1072/head # purchase_request_type
 
 account-invoicing:
   defaults:
@@ -124,6 +125,7 @@ server-ux:
   merges:
     - origin $ODOO_VERSION
     - origin refs/pull/246/head # base_revision
+    - origin refs/pull/228/head # base_tier_validation_server_action
 
 server-tools:
   defaults:

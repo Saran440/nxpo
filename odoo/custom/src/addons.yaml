@@ -55,6 +55,7 @@ server-ux:
   - base_tier_validation
   - base_tier_validation_formula
   - base_tier_validation_forward
+  - base_tier_validation_server_action
 server-backend:
   - base_user_role
 server-tools:
@@ -91,7 +92,8 @@ purchase-workflow:
   - purchase_work_acceptance
   - purchase_work_acceptance_evaluation
   - purchase_work_acceptance_invoice_plan
-  - purchase_work_acceptance_late_fine
+  - purchase_work_acceptance_late_fines
+  - purchase_request_type
 stock-logistics-warehouse:
   - stock_request
   - stock_request_tier_validation
