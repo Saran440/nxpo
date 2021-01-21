@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Hidden action create vendor bills -->
+    <record id="purchase.action_purchase_batch_bills" model="ir.actions.server">
+        <field
+            name="groups_id"
+            eval="[(6, 0, [ref('nxpo_base_usability.group_nobody')])]"
+        />
+    </record>
+</odoo>
