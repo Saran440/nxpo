@@ -4,9 +4,11 @@ account-invoicing:
   - account_invoice_payment_warranty
 budgeting:
   - budget_activity
+  - budget_activity_advance_clearing
   - budget_activity_expense
   - budget_activity_group
   - budget_activity_monitoring
+  - budget_activity_monitoring_advance
   - budget_activity_monitoring_expense
   - budget_activity_monitoring_purchase
   - budget_activity_monitoring_purchase_request

@@ -51,7 +51,7 @@ class BudgetMonitorReport(models.Model):
     def _from_actual(self):
         from_actual_query = super()._from_actual()
         from_actual_query = self._from_project_common(
-            from_actual_query, "aml.analytic_account_id = aa.id"
+            from_actual_query, "a.analytic_account_id = aa.id"
         )
         return from_actual_query
 
@@ -70,26 +70,26 @@ class BudgetMonitorReport(models.Model):
 
     # Purchase Request
     def _select_pr_commit(self):
-        select_ex_query = super()._select_pr_commit()
-        select_ex_query = self._select_project_common(select_ex_query)
-        return select_ex_query
+        select_pr_query = super()._select_pr_commit()
+        select_pr_query = self._select_project_common(select_pr_query)
+        return select_pr_query
 
     def _from_pr_commit(self):
-        from_ex_query = super()._from_pr_commit()
-        from_ex_query = self._from_project_common(
-            from_ex_query, "a.analytic_account_id = aa.id"
+        from_pr_query = super()._from_pr_commit()
+        from_pr_query = self._from_project_common(
+            from_pr_query, "a.analytic_account_id = aa.id"
         )
-        return from_ex_query
+        return from_pr_query
 
     # Purchase
     def _select_po_commit(self):
-        select_ex_query = super()._select_po_commit()
-        select_ex_query = self._select_project_common(select_ex_query)
-        return select_ex_query
+        select_po_query = super()._select_po_commit()
+        select_po_query = self._select_project_common(select_po_query)
+        return select_po_query
 
     def _from_po_commit(self):
-        from_ex_query = super()._from_po_commit()
-        from_ex_query = self._from_project_common(
-            from_ex_query, "a.analytic_account_id = aa.id"
+        from_po_query = super()._from_po_commit()
+        from_po_query = self._from_project_common(
+            from_po_query, "a.analytic_account_id = aa.id"
         )
-        return from_ex_query
+        return from_po_query

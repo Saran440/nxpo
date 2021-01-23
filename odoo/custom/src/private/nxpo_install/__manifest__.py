@@ -17,6 +17,7 @@
         "hr_expense",
         # OCA Modules
         "date_range",
+        "account_menu",
         "purchase_request",
         "account_asset_management",
         "analytic_base_department",
