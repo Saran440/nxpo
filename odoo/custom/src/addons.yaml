@@ -95,6 +95,7 @@ purchase-workflow:
   - purchase_work_acceptance_evaluation
   - purchase_work_acceptance_invoice_plan
   - purchase_work_acceptance_late_fines
+  - purchase_rfq_number
   - purchase_request_type
 stock-logistics-warehouse:
   - stock_request
