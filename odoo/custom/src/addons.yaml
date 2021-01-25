@@ -64,6 +64,8 @@ server-tools:
   - base_exception
 hr-expense:
   - hr_expense_advance_clearing
+  - hr_expense_advance_clearing_detail
+  - hr_expense_sequence
 l10n-thailand:
   - l10n_th_amount_to_text
   - l10n_th_base_location

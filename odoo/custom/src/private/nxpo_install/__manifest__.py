@@ -24,6 +24,7 @@
         "operating_unit",
         "analytic_operating_unit",
         "account_operating_unit",
+        "hr_expense_sequence",
         "hr_expense_operating_unit",
         "purchase_operating_unit",
         "purchase_request_operating_unit",

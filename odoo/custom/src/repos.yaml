@@ -164,6 +164,7 @@ hr-expense:
   merges:
     - origin $ODOO_VERSION
     - origin refs/pull/25/head # hr_expense_advance_clearing
+    - origin refs/pull/26/head # hr_expense_advance_clearing_detail
 
 l10n-thailand:
   defaults:
