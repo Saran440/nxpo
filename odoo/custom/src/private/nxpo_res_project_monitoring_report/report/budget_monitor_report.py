@@ -55,6 +55,19 @@ class BudgetMonitorReport(models.Model):
         )
         return from_actual_query
 
+    # Advance
+    def _select_av_commit(self):
+        select_av_query = super()._select_av_commit()
+        select_av_query = self._select_project_common(select_av_query)
+        return select_av_query
+
+    def _from_av_commit(self):
+        from_av_query = super()._from_av_commit()
+        from_av_query = self._from_project_common(
+            from_av_query, "a.analytic_account_id = aa.id"
+        )
+        return from_av_query
+
     # Expense
     def _select_ex_commit(self):
         select_ex_query = super()._select_ex_commit()
