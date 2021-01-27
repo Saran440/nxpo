@@ -12,40 +12,51 @@
         <field name="sequence" eval="1" />
     </record>
 
-    <!-- <record id="nxpo_tax_report_out_tax_sale" model="account.tax.report.line">
+    <record id="nxpo_tax_report_out_tax_sale" model="account.tax.report.line">
         <field name="name">1. Sales amount</field>
         <field name="tag_name">1. Sales amount</field>
         <field name="code">OUTPUTTAX_SALEAMOUNT</field>
-        <field name="report_id" ref="nxpo_tax_report"/>
-        <field name="sequence" eval="1"/>
-        <field name="parent_id" ref="nxpo_tax_report_out_tax_title"/>
+        <field name="report_id" ref="nxpo_tax_report" />
+        <field name="sequence" eval="1" />
+        <field name="parent_id" ref="nxpo_tax_report_out_tax_title" />
     </record>
 
-    <record id="nxpo_tax_report_out_tax_less_sales_0_rate" model="account.tax.report.line">
+    <record
+        id="nxpo_tax_report_out_tax_less_sales_0_rate"
+        model="account.tax.report.line"
+    >
         <field name="name">2. Less sales subject to 0% tax rate </field>
         <field name="tag_name">2. Less sales subject to 0% tax rate </field>
         <field name="code">OUTPUTTAX_SALE_ZERO</field>
-        <field name="report_id" ref="nxpo_tax_report"/>
-        <field name="sequence" eval="2"/>
-        <field name="parent_id" ref="nxpo_tax_report_out_tax_title"/>
+        <field name="report_id" ref="nxpo_tax_report" />
+        <field name="sequence" eval="2" />
+        <field name="parent_id" ref="nxpo_tax_report_out_tax_title" />
     </record>
 
-    <record id="nxpo_tax_report_out_tax_less_exempted_sales" model="account.tax.report.line">
+    <record
+        id="nxpo_tax_report_out_tax_less_exempted_sales"
+        model="account.tax.report.line"
+    >
         <field name="name">3. Less exempted sales</field>
         <field name="tag_name">3. Less exempted sales</field>
         <field name="code">OUTPUTTAX_EXEMPTED</field>
-        <field name="report_id" ref="nxpo_tax_report"/>
-        <field name="sequence" eval="3"/>
-        <field name="parent_id" ref="nxpo_tax_report_out_tax_title"/>
+        <field name="report_id" ref="nxpo_tax_report" />
+        <field name="sequence" eval="3" />
+        <field name="parent_id" ref="nxpo_tax_report_out_tax_title" />
     </record>
 
-    <record id="nxpo_tax_report_out_tax_taxable_sales_amount" model="account.tax.report.line">
+    <record
+        id="nxpo_tax_report_out_tax_taxable_sales_amount"
+        model="account.tax.report.line"
+    >
         <field name="name">4. Taxable sales amount(1. -2. -3.)</field>
-        <field name="report_id" ref="nxpo_tax_report"/>
-        <field name="sequence" eval="4"/>
-        <field name="parent_id" ref="nxpo_tax_report_out_tax_title"/>
-        <field name="formula">OUTPUTTAX_SALEAMOUNT-(OUTPUTTAX_SALE_ZERO+OUTPUTTAX_EXEMPTED)</field>
-    </record> -->
+        <field name="report_id" ref="nxpo_tax_report" />
+        <field name="sequence" eval="4" />
+        <field name="parent_id" ref="nxpo_tax_report_out_tax_title" />
+        <field
+            name="formula"
+        >OUTPUTTAX_SALEAMOUNT-(OUTPUTTAX_SALE_ZERO+OUTPUTTAX_EXEMPTED)</field>
+    </record>
 
     <record id="nxpo_tax_report_out_tax" model="account.tax.report.line">
         <field name="name">5. Output tax</field>

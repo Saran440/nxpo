@@ -17,7 +17,16 @@ def post_init_hook(cr, registry):
         a_recv = env.ref("nxpo_coa.a_recv")
         a_pay = env.ref("nxpo_coa.a_pay")
         a_exp_cogs = env.ref("nxpo_coa.a_exp_cogs")
+        a_sales = env.ref("nxpo_coa.a_sales")
+        a_income_gain = env.ref("nxpo_coa.a_income_gain")
+        a_exp_loss = env.ref("nxpo_coa.a_exp_loss")
         coa.property_account_receivable_id = a_recv
         coa.property_account_payable_id = a_pay
         coa.property_account_expense_categ_id = a_exp_cogs
+        coa.property_account_income_categ_id = a_sales
+        coa.income_currency_exchange_account_id = a_income_gain
+        coa.expense_currency_exchange_account_id = a_exp_loss
+        # Uninstall and loading coa template again
+        env.company.chart_template_id = False
+        coa.try_loading()
     return

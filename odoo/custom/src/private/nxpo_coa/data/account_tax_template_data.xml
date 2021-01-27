@@ -42,14 +42,16 @@
         />
     </record>
 
-    <!-- <record id="nxpo_tax_output_vat" model="account.tax.template">
-        <field name="chart_template_id" ref="chart"/>
+    <record id="nxpo_tax_output_vat" model="account.tax.template">
+        <field name="chart_template_id" ref="chart" />
         <field name="name">Output VAT 7%</field>
         <field name="amount_type">percent</field>
-        <field name="amount" eval="7"/>
+        <field name="amount" eval="7" />
         <field name="type_tax_use">sale</field>
-        <field name="tax_group_id" ref="nxpo_tax_group_vat_7"/>
-        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+        <field name="tax_group_id" ref="nxpo_tax_group_vat_7" />
+        <field
+            name="invoice_repartition_line_ids"
+            eval="[(5, 0, 0),
             (0,0, {
                 'factor_percent': 100,
                 'repartition_type': 'base',
@@ -61,8 +63,11 @@
                 'account_id': ref('a_output_vat'),
                 'plus_report_line_ids': [ref('nxpo_tax_report_out_tax')],
             }),
-        ]"/>
-        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+        ]"
+        />
+        <field
+            name="refund_repartition_line_ids"
+            eval="[(5, 0, 0),
             (0,0, {
                 'factor_percent': 100,
                 'repartition_type': 'base',
@@ -74,8 +79,9 @@
                 'account_id': ref('a_output_vat'),
                 'minus_report_line_ids': [ref('nxpo_tax_report_out_tax')],
             }),
-        ]"/>
-    </record> -->
+        ]"
+        />
+    </record>
 
     <record id="nxpo_tax_input_vat_0" model="account.tax.template">
         <field name="chart_template_id" ref="chart" />
@@ -117,13 +123,15 @@
         />
     </record>
 
-    <!-- <record id="nxpo_tax_output_vat_0" model="account.tax.template">
-        <field name="chart_template_id" ref="chart"/>
+    <record id="nxpo_tax_output_vat_0" model="account.tax.template">
+        <field name="chart_template_id" ref="chart" />
         <field name="name">Output VAT 0%</field>
         <field name="amount_type">percent</field>
-        <field name="amount" eval="0"/>
+        <field name="amount" eval="0" />
         <field name="type_tax_use">sale</field>
-        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+        <field
+            name="invoice_repartition_line_ids"
+            eval="[(5, 0, 0),
             (0,0, {
                 'factor_percent': 100,
                 'repartition_type': 'base',
@@ -135,8 +143,11 @@
                 'account_id': ref('a_output_vat'),
                 'plus_report_line_ids': [ref('nxpo_tax_report_out_tax')],
             }),
-        ]"/>
-        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+        ]"
+        />
+        <field
+            name="refund_repartition_line_ids"
+            eval="[(5, 0, 0),
             (0,0, {
                 'factor_percent': 100,
                 'repartition_type': 'base',
@@ -148,8 +159,9 @@
                 'account_id': ref('a_output_vat'),
                 'minus_report_line_ids': [ref('nxpo_tax_report_out_tax')],
             }),
-        ]"/>
-    </record> -->
+        ]"
+        />
+    </record>
 
     <record id="nxpo_tax_input_vat_exempted" model="account.tax.template">
         <field name="chart_template_id" ref="chart" />
@@ -191,13 +203,15 @@
         />
     </record>
 
-    <!-- <record id="nxpo_tax_output_vat_exempted" model="account.tax.template">
-        <field name="chart_template_id" ref="chart"/>
+    <record id="nxpo_tax_output_vat_exempted" model="account.tax.template">
+        <field name="chart_template_id" ref="chart" />
         <field name="name">Output VAT Exempted</field>
         <field name="amount_type">percent</field>
-        <field name="amount" eval="0"/>
+        <field name="amount" eval="0" />
         <field name="type_tax_use">sale</field>
-        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+        <field
+            name="invoice_repartition_line_ids"
+            eval="[(5, 0, 0),
             (0,0, {
                 'factor_percent': 100,
                 'repartition_type': 'base',
@@ -209,8 +223,11 @@
                 'account_id': ref('a_output_vat'),
                 'plus_report_line_ids': [ref('nxpo_tax_report_out_tax')],
             }),
-        ]"/>
-        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+        ]"
+        />
+        <field
+            name="refund_repartition_line_ids"
+            eval="[(5, 0, 0),
             (0,0, {
                 'factor_percent': 100,
                 'repartition_type': 'base',
@@ -222,8 +239,9 @@
                 'account_id': ref('a_output_vat'),
                 'minus_report_line_ids': [ref('nxpo_tax_report_out_tax')],
             }),
-        ]"/>
-    </record> -->
+        ]"
+        />
+    </record>
 
     <!-- <record id="tax_wht_co_1" model="account.tax.template">
         <field name="chart_template_id" ref="chart"/>
