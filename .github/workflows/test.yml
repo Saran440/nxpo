@@ -26,4 +26,4 @@ jobs:
       - run: invoke git-aggregate
       - run: invoke resetdb start
       - run: invoke install -m nxpo_install
-      - run: invoke install -m nxpo_config,nxpo_data
+      - run: invoke install -m nxpo_config,nxpo_coa,nxpo_data
