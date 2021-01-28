@@ -47,6 +47,7 @@ purchase-workflow:
     - origin refs/pull/1021/head # purchase_work_acceptance_evaluation
     - origin refs/pull/1020/head # purchase_work_acceptance_late_fines
     - origin refs/pull/1025/head # purchase_work_acceptance_invoice_plan
+    - origin refs/pull/1079/head # purchase_rfq_number
     - origin refs/pull/1072/head # purchase_request_type
 
 account-invoicing:

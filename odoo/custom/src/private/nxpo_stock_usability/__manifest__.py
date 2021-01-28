@@ -2,14 +2,15 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 
 {
-    "name": "NxPO - PR Sequence",
-    "summary": "Will generate the document number when pressing save",
+    "name": "NxPO - Stock Usability",
+    "summary": "Usability improvements on stock module",
     "version": "14.0.1.0.0",
     "category": "NxPO",
     "author": "ProThai Technology Co.,Ltd.",
-    "depends": ["purchase_request"],
-    "data": [],
-    "maintainer": ["prapassornS"],
+    "depends": ["stock"],
+    "data": [
+        "views/stock_inventory_views.xml",
+    ],
     "installable": True,
     "license": "AGPL-3",
 }
