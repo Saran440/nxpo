@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_purchase_order_type_tree" model="ir.ui.view">
+        <field name="model">purchase.order.type</field>
+        <field
+            name="inherit_id"
+            ref="purchase_order_type.view_purchase_order_type_tree"
+        />
+        <field name="arch" type="xml">
+            <field name="name" position="before">
+                <field name="code" />
+            </field>
+            <field name="sequence_id" position="after">
+                <field name="to_contract" />
+            </field>
+        </field>
+    </record>
+
+    <record id="view_purchase_order_type_form" model="ir.ui.view">
+        <field name="model">purchase.order.type</field>
+        <field
+            name="inherit_id"
+            ref="purchase_order_type.view_purchase_order_type_form"
+        />
+        <field name="arch" type="xml">
+            <field name="sequence_id" position="before">
+                <field name="code" />
+            </field>
+            <field name="sequence_id" position="after">
+                <field name="to_contract" />
+            </field>
+        </field>
+    </record>
+
+    <record id="view_purchase_order_type_search" model="ir.ui.view">
+        <field name="model">purchase.order.type</field>
+        <field
+            name="inherit_id"
+            ref="purchase_order_type.view_purchase_order_type_search"
+        />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="code" />
+            </field>
+        </field>
+    </record>
+
+</odoo>
