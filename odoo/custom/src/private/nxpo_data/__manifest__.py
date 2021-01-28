@@ -14,6 +14,8 @@
     ],
     "data": [
         "data/res.project.csv",
+        "data/budget.activity.group.csv",
+        "data/budget.activity.csv",
     ],
     "installable": True,
 }
