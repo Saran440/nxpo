@@ -27,10 +27,12 @@ budgeting:
   - budget_control_transfer
   - budget_monitoring_operating_unit
   - budget_monitoring_operating_unit_expense
+  - budget_monitoring_operating_unit_advance
   - budget_monitoring_operating_unit_purchase
   - budget_monitoring_operating_unit_purchase_request
   - budget_source_fund
   - budget_source_fund_exception
+  - hr_expense_advance_clearing_detail_activity
   - mis_builder_budget_activity_group
 account-financial-tools:
   - account_check_deposit
@@ -64,6 +66,7 @@ server-tools:
   - base_exception
 hr-expense:
   - hr_expense_advance_clearing
+  - hr_expense_advance_clearing_detail
   - hr_expense_sequence
 l10n-thailand:
   - l10n_th_amount_to_text

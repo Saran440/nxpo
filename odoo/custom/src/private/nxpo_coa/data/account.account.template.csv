@@ -1,0 +1,367 @@
+id,code,name,user_type_id,chart_template_id/id,reconcile
+account_11010101,11010101,เงินสดในมือ,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010102,11010102,เงินสดย่อย,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010104,11010104,เช็ครับล่วงหน้า,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010200,11010200,เงินฝากธนาคาร-กระแสรายวัน,Bank and Cash,nxpo_coa.chart,FALSE
+account_11010201,11010201,เงินฝากธนาคาร-กระแสรายวัน บัญชีที่1,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010202,11010202,เงินฝากธนาคาร-กระแสรายวัน บัญชีที่2,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010300,11010300,เงินฝากธนาคาร-ออมทรัพย์,Bank and Cash,nxpo_coa.chart,FALSE
+account_11010301,11010301,เงินฝากธนาคาร-ออมทรัพย์ KTB สาขาถนนศรีอยุธยา,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010302,11010302,เงินฝากธนาคาร-ออมทรัพย์ KTB สาขาจามจุรีสแควร์,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010303,11010303,เงินฝากธนาคาร-ซุปเปอร์ออมทรัพย์พิเศษ ธอส.สาขาสยามสแควร์,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010311,11010311,เงินฝากธนาคาร-ออมทรัพย์ KTB (สอวช.) สาขาจามจุรีสแควร์,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010312,11010312,เงินฝากธนาคาร-ออมทรัพย์ KTB SFB630009/0357-สอวช.,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010313,11010313,เงินฝากธนาคาร-ออมทรัพย์ KTB SFB0002/0357 โดย สอวช.,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010314,11010314,เงินฝากธนาคาร-ออมทรัพย์ KTB SFB630002/0407-บพท. โดย สอวช.,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010315,11010315,เงินฝากธนาคาร-ออมทรัพย์ KTB SFB630001/0405-บพค. โดย สอวช.,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010316,11010316,เงินฝากธนาคาร-ออมทรัพย์ KTB SFB630003/0406-บพข. โดย สอวช.,Bank and Cash,nxpo_coa.chart,TRUE
+account_11010317,11010317,เงินฝากธนาคาร-ออมทรัพย์ BBL สาขาจามจุรีสแควร์,Bank and Cash,nxpo_coa.chart,TRUE
+a_recv,11020000,ลูกหนี้การค้า (สุทธิ),Receivable,nxpo_coa.chart,TRUE
+account_11020101,11020101,ลูกหนี้การค้า - ในประเทศ หน่วยงานภาครัฐ,Receivable,nxpo_coa.chart,TRUE
+account_11020201,11020201,ลูกหนี้การค้า - ในประเทศ หน่วยงานเอกชน,Receivable,nxpo_coa.chart,TRUE
+account_11030101,11030101,เงินยืมทดรองจ่าย,Current Liabilities,nxpo_coa.chart,TRUE
+account_13040000,13040000,ครุภัณฑ์ (สุทธิ),Fixed Assets,nxpo_coa.chart,FALSE
+account_13040100,13040100,ครุภัณฑ์,Fixed Assets,nxpo_coa.chart,FALSE
+account_13040101,13040101,ครุภัณฑ์และอุปกรณ์สำนักงาน,Fixed Assets,nxpo_coa.chart,TRUE
+account_13040103,13040103,ครุภัณฑ์และอุปกรณ์โฆษณาและเผยแพร่,Fixed Assets,nxpo_coa.chart,TRUE
+account_13040104,13040104,ครุภัณฑ์และอุปกรณ์ไฟฟ้าและวิทยุ,Fixed Assets,nxpo_coa.chart,TRUE
+account_13040105,13040105,ครุภัณฑ์และอุปกรณ์คอมพิวเตอร์,Fixed Assets,nxpo_coa.chart,TRUE
+account_13040106,13040106,ครุภัณฑ์และอุปกรณ์งานบ้านงานครัว,Fixed Assets,nxpo_coa.chart,TRUE
+account_13040108,13040108,ครุภัณฑ์และอุปกรณ์กีฬา,Fixed Assets,nxpo_coa.chart,TRUE
+account_13040110,13040110,ครุภัณฑ์และอุปกรณ์โรงงาน,Fixed Assets,nxpo_coa.chart,TRUE
+account_13040111,13040111,ครุภัณฑ์ตามสัญญาเช่าการเงิน,Fixed Assets,nxpo_coa.chart,TRUE
+account_13045100,13045100,ค่าเสื่อมสะสม - ครุภัณฑ์,Depreciation,nxpo_coa.chart,FALSE
+account_13045101,13045101,ค่าเสื่อมสะสม- ครุภัณฑ์สำนักงาน,Depreciation,nxpo_coa.chart,TRUE
+account_13045103,13045103,ค่าเสื่อมสะสม- ครุภัณฑ์โฆษณาและเผยแพร่,Depreciation,nxpo_coa.chart,TRUE
+account_13045104,13045104,ค่าเสื่อมสะสม- ครุภัณฑ์ไฟฟ้าและวิทยุ,Depreciation,nxpo_coa.chart,TRUE
+account_13045105,13045105,ค่าเสื่อมสะสม- ครุภัณฑ์คอมพิวเตอร์,Depreciation,nxpo_coa.chart,TRUE
+account_13045106,13045106,ค่าเสื่อมสะสม- ครุภัณฑ์งานบ้านงานครัว,Depreciation,nxpo_coa.chart,TRUE
+account_13045108,13045108,ค่าเสื่อมสะสม- ครุภัณฑ์กีฬา,Depreciation,nxpo_coa.chart,TRUE
+account_13045110,13045110,ค่าเสื่อมสะสม-ครุภัณฑ์และอุปกรณ์โรงงาน,Depreciation,nxpo_coa.chart,TRUE
+account_13045111,13045111,ค่าเสื่อมสะสม-ครุภัณฑ์ตามสัญญาเช่าการเงิน,Depreciation,nxpo_coa.chart,TRUE
+account_13105100,13105100,ค่าตัดจำหน่ายสะสม - สินทรัพย์ไม่มีตัวตน,Depreciation,nxpo_coa.chart,FALSE
+account_13105101,13105101,ค่าตัดจำหน่ายสะสม-สินทรัพย์ไม่มีตัวตน,Depreciation,nxpo_coa.chart,TRUE
+a_input_vat,1510,Input VAT,Current Assets,nxpo_coa.chart,FALSE
+account_20000000,20000000,หนี้สิน,Current Liabilities,nxpo_coa.chart,FALSE
+account_21000000,21000000,หนี้สินหมุนเวียน,Current Liabilities,nxpo_coa.chart,FALSE
+a_pay,21010000,เจ้าหนี้การค้า,Current Liabilities,nxpo_coa.chart,TRUE
+account_21010101,21010101,เจ้าหนี้การค้า - ในประเทศ,Current Liabilities,nxpo_coa.chart,TRUE
+account_21010201,21010201,เจ้าหนี้การค้า - ต่างประเทศ,Current Liabilities,nxpo_coa.chart,TRUE
+account_21020000,21020000,เจ้าหนี้อื่น,Current Liabilities,nxpo_coa.chart,FALSE
+account_21020201,21020201,เจ้าหนี้พนักงาน,Current Liabilities,nxpo_coa.chart,TRUE
+account_21020301,21020301,เงินรอรับรู้,Current Liabilities,nxpo_coa.chart,TRUE
+account_21020901,21020901,เจ้าหนี้อื่น,Current Liabilities,nxpo_coa.chart,TRUE
+account_21020902,21020902,บัญชีพัก-เจ้าหนี้อื่น,Current Liabilities,nxpo_coa.chart,TRUE
+account_21020903,21020903,บัญชีพัก-เจ้าหนี้ค่าธรรมเนียมธนาคาร,Current Liabilities,nxpo_coa.chart,TRUE
+account_21020904,21020904,เจ้าหนี้-สอวช.,Current Liabilities,nxpo_coa.chart,TRUE
+account_21030000,21030000,ค่าใช้จ่ายค้างจ่าย,Current Liabilities,nxpo_coa.chart,FALSE
+account_21030101,21030101,ค่าสาธารณูปโภคค้างจ่าย,Current Liabilities,nxpo_coa.chart,TRUE
+account_21030201,21030201,ค่าเช่าและบริการค้างจ่าย,Current Liabilities,nxpo_coa.chart,TRUE
+account_21030301,21030301,ค่าจ้างทำบัญชีค้างจ่าย,Current Liabilities,nxpo_coa.chart,TRUE
+account_21030401,21030401,ค่าจ้างที่ปรึกษา/ผู้เชี่ยวชาญ/IT Outsourceค้างจ่าย,Current Liabilities,nxpo_coa.chart,TRUE
+account_21030501,21030501,ค่าใช้จ่ายค้างจ่ายอื่น,Current Liabilities,nxpo_coa.chart,TRUE
+account_21030601,21030601,หนี้สินตามสัญญาเช่าการเงิน,Current Liabilities,nxpo_coa.chart,TRUE
+account_21030611,21030611,ดอกเบี้ยจ่ายรอตัดจ่าย,Current Liabilities,nxpo_coa.chart,TRUE
+account_21040000,21040000,รายได้รับล่วงหน้า,Current Liabilities,nxpo_coa.chart,FALSE
+account_21040101,21040101,รายได้รับล่วงหน้า,Current Liabilities,nxpo_coa.chart,TRUE
+account_21050000,21050000,เงินค้างนำส่ง,Current Liabilities,nxpo_coa.chart,FALSE
+account_21050301,21050301,ภาษีเงินได้บุคคลธรรมดาหัก ณ ที่จ่าย ภงด1,Current Liabilities,nxpo_coa.chart,TRUE
+account_21050401,21050401,ภาษีเงินได้บุคคลธรรมดาหัก ณ ที่จ่าย ภงด3,Current Liabilities,nxpo_coa.chart,TRUE
+account_21050501,21050501,ภาษีเงินได้นิติบุคคลหัก ณ ที่จ่าย ภงด 53,Current Liabilities,nxpo_coa.chart,TRUE
+account_21050601,21050601,ภาษีเงินได้นิติบุคคลหัก ณ ที่จ่าย ภงด 54,Current Liabilities,nxpo_coa.chart,TRUE
+account_21080000,21080000,เงินมัดจำ/เงินค้ำประกัน,Current Liabilities,nxpo_coa.chart,FALSE
+account_21080501,21080501,เงินประกันผลงาน,Current Liabilities,nxpo_coa.chart,TRUE
+account_21080601,21080601,เงินหลักประกันรับตามสัญญา,Current Liabilities,nxpo_coa.chart,TRUE
+account_22000000,22000000,หนี้สินไม่หมุนเวียน,Non-current Liabilities,nxpo_coa.chart,FALSE
+account_22010000,22010000,เงินสำรองรอจ่าย,Non-current Liabilities,nxpo_coa.chart,FALSE
+account_22010101,22010101,หนี้สินผลประโยชน์พนักงาน,Non-current Liabilities,nxpo_coa.chart,TRUE
+account_22020000,22020000,หนี้สินตามสัญญาเช่าการเงิน - ระยะยาว,Non-current Liabilities,nxpo_coa.chart,FALSE
+account_22020101,22020101,หนี้สินตามสัญญาเช่าการเงินที่ถึงกำหนดชำระเกินกว่า 1 ปี,Non-current Liabilities,nxpo_coa.chart,TRUE
+account_22020111,22020111,ดอกเบี้ยรอตัดบัญชี-ที่ถึงกำหนดชำระเกินกว่า 1 ปี,Non-current Liabilities,nxpo_coa.chart,TRUE
+account_22900000,22900000,หนี้สินไม่หมุนเวียนอื่น,Non-current Liabilities,nxpo_coa.chart,FALSE
+account_22909000,22909000,หนี้สินไม่หมุนเวียนอื่น,Non-current Liabilities,nxpo_coa.chart,TRUE
+a_output_vat,2310,Output VAT,Current Liabilities,nxpo_coa.chart,FALSE
+account_30000000,30000000,เงินกองทุน (ส่วนของเจ้าของ),Equity,nxpo_coa.chart,FALSE
+account_31000000,31000000,ทุน,Equity,nxpo_coa.chart,FALSE
+account_31000301,31000301,ทุนรับโอนจากหน่วยงานอื่น,Equity,nxpo_coa.chart,TRUE
+account_31000302,31000302,ทุนเพิ่ม/ลด,Equity,nxpo_coa.chart,TRUE
+account_34000000,34000000,รายได้สูงกว่า(ต่ำกว่า)ค่าใช่จ่ายสะสม,Equity,nxpo_coa.chart,FALSE
+account_34000101,34000101,รายได้สูงกว่า (ต่ำกว่า) ค่าใช้จ่ายสะสม,Equity,nxpo_coa.chart,TRUE
+account_40000000,40000000,รายได้,Income,nxpo_coa.chart,FALSE
+a_sales,41000000,รายได้เงินอุดหนุน,Income,nxpo_coa.chart,FALSE
+account_41010000,41010000,เงินอุดหนุน,Income,nxpo_coa.chart,FALSE
+account_41010101,41010101,รายได้เงินอุดหนุนจากภาครัฐ,Income,nxpo_coa.chart,TRUE
+account_41010102,41010102,รายรับเงินอุดหนุน-งบประมาณแผ่นดิน,Income,nxpo_coa.chart,TRUE
+account_41010201,41010201,รายได้เงินอุดหนุนจากภาคเอกชน,Income,nxpo_coa.chart,TRUE
+account_41010301,41010301,รายได้เงินอุดหนุนการอบรม/จัดสัมมนา / พัฒนาบุคลากร จากในประเทศ,Income,nxpo_coa.chart,TRUE
+account_41010401,41010401,รายได้เงินอุดหนุนการอบรม/จัดสัมมนา / พัฒนาบุคลากร จากต่างประเทศ,Income,nxpo_coa.chart,TRUE
+account_41010601,41010601,รายได้เงินสนับสนุนอื่น,Income,nxpo_coa.chart,TRUE
+account_41010701,41010701,รายได้เงินสนับสนุนการวิจัย บพท. (PMU A),Income,nxpo_coa.chart,TRUE
+account_41010702,41010702,รายได้เงินสนับสนุนการวิจัย บพค. (PMU B),Income,nxpo_coa.chart,TRUE
+account_41010703,41010703,รายได้เงินสนับสนุนการวิจัย บพข. (PMU C),Income,nxpo_coa.chart,TRUE
+account_41010801,41010801,รายได้เงินสนับสนุนการวิจัย-เอกชนและหน่วยงานอื่น,Income,nxpo_coa.chart,TRUE
+account_41010901,41010901,รายได้เงินอุดหนุนอื่น,Income,nxpo_coa.chart,TRUE
+a_income_gain,4200,Gain Account,Income,nxpo_coa.chart,False
+account_42010000,42010000,รายได้จากการขายและบริการ,Income,nxpo_coa.chart,FALSE
+account_42010101,42010101,รายได้ค่าที่ปรึกษาและวิเคราะห์ระบบงาน,Income,nxpo_coa.chart,TRUE
+account_42010201,42010201,รายได้ค่าบริการและเทคนิคและวิชาการ,Income,nxpo_coa.chart,TRUE
+account_42010203,42010203,รายได้ค่าบริหารโครงการ,Income,nxpo_coa.chart,TRUE
+account_42010301,42010301,รายได้จากการรับจ้าง/ร่วมวิจัย,Income,nxpo_coa.chart,TRUE
+account_42011001,42011001,รายได้ค่าสมาชิก/ขายหนังสือ,Income,nxpo_coa.chart,TRUE
+account_42090000,42090000,รายได้อื่น,Income,nxpo_coa.chart,FALSE
+account_42090101,42090101,รายได้จากการจำหน่ายหนังสือและวารสาร/ค่าสมาชิก,Income,nxpo_coa.chart,TRUE
+account_42090201,42090201,รายได้ค่าบริการถ่ายเอกสาร,Income,nxpo_coa.chart,TRUE
+account_42090401,42090401,รายได้ค่าปรับ,Income,nxpo_coa.chart,TRUE
+account_42090501,42090501,ส่วนลดรับ/ส่วนลดจ่าย,Income,nxpo_coa.chart,TRUE
+account_42090901,42090901,รายได้อื่น,Other Income,nxpo_coa.chart,TRUE
+account_42100000,42100000,ดอกเบี้ยรับและเงินปันผล,Income,nxpo_coa.chart,FALSE
+account_42100101,42100101,ดอกเบี้ยรับ-เงินฝากสะสมทรัพย์,Income,nxpo_coa.chart,TRUE
+account_42110101,42110101,เงินเหลือจ่ายรับคืน/ส่งคืน,Income,nxpo_coa.chart,TRUE
+account_42120000,42120000,กำไร/ขาดทุน อัตราแลกเปลี่ยนเงินตราต่างประเทศ,Income,nxpo_coa.chart,FALSE
+account_42120101,42120101,กำไร/ขาดทุน อัตราแลกเปลี่ยนเงินตรา ตปท,Income,nxpo_coa.chart,TRUE
+account_42130000,42130000,กำไร/ขาดทุน จากการจำหน่ายครุภัณฑ์และอุปกรณ์,Income,nxpo_coa.chart,FALSE
+account_42130101,42130101,กำไร/ขาดทุน จำหน่ายครุภัณฑ์และอุปกรณ์,Income,nxpo_coa.chart,TRUE
+a_exp_cogs,5100,Cost of Revenue,Cost of Revenue,nxpo_coa.chart,FALSE
+account_50000000,50000000,ค่าใช้จ่าย,Expenses,nxpo_coa.chart,FALSE
+account_51000000,51000000,ค่าใช้จ่ายบุคลากร,Expenses,nxpo_coa.chart,FALSE
+account_51010000,51010000,เงินเดือนและค่าจ้าง,Expenses,nxpo_coa.chart,FALSE
+account_51010100,51010100,เงินเดือน,Expenses,nxpo_coa.chart,FALSE
+account_51010101,51010101,เงินเดือน-พนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_51010200,51010200,ค่าล่วงเวลา,Expenses,nxpo_coa.chart,FALSE
+account_51010201,51010201,ค่าล่วงเวลา-พนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_51010202,51010202,ค่าล่วงเวลา-ลูกจ้าง,Expenses,nxpo_coa.chart,FALSE
+account_51010900,51010900,ค่าใช้จ่ายบุคลากรอื่น,Expenses,nxpo_coa.chart,FALSE
+account_51010901,51010901,เงินเพิ่มพิเศษ,Expenses,nxpo_coa.chart,FALSE
+account_51010902,51010902,เงินพิเศษค่าครองชีพ,Expenses,nxpo_coa.chart,FALSE
+account_51010903,51010903,เงินประโยชน์ตอบแทน,Expenses,nxpo_coa.chart,FALSE
+account_51020000,51020000,ค่าสวัสดิการ,Expenses,nxpo_coa.chart,FALSE
+account_51020101,51020101,เงินสมทบกองทุนสำรองเลี้ยงชีพ,Expenses,nxpo_coa.chart,FALSE
+account_51020103,51020103,เงินชดเชยพนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_51020201,51020201,เงินสวัสดิการ-ค่ารักษาพยาบาล,Expenses,nxpo_coa.chart,FALSE
+account_51020202,51020202,ค่าเบี้ยประกันสุขภาพ,Expenses,nxpo_coa.chart,FALSE
+account_51020203,51020203,ค่าเบี้ยประกันชีวิต,Expenses,nxpo_coa.chart,FALSE
+account_51020301,51020301,เงินสวัสดิการ-ค่าเล่าเรียนบุตร,Expenses,nxpo_coa.chart,FALSE
+account_51020401,51020401,เงินชดเชยช่วยเหลือพนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_51020501,51020501,กองทุนสวัสดิการ-เงินช่วยเหลือค่าทำศพ,Expenses,nxpo_coa.chart,FALSE
+account_51020601,51020601,เงินสวัสดิการ-การกีฬา(เลือกได้อิสระ),Expenses,nxpo_coa.chart,FALSE
+account_51020801,51020801,ค่าเครื่องแต่งกาย,Expenses,nxpo_coa.chart,FALSE
+account_51030000,51030000,ค่าพัฒนาบุคลากร (ค่าเดินทาง สัมมนาและฝึกอบรม),Expenses,nxpo_coa.chart,FALSE
+account_51030100,51030100,ค่าใช้จ่ายในการเดินทาง สัมมนาและฝึกอบรม ในประเทศ,Expenses,nxpo_coa.chart,FALSE
+account_51030101,51030101,ตั๋วเครื่องบิน(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030102,51030102,ค่าพาหนะอื่น ๆ(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030103,51030103,ค่าเบี้ยเลี้ยง(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030104,51030104,ค่าลงทะเบียน(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030105,51030105,ค่าที่พัก(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030106,51030106,ค่าจ้าง Outsource (พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030107,51030107,ค่าอาหารเครื่องดื่ม(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030108,51030108,ค่าวิทยากร พิธีกร และล่าม(บุคคลภายนอก)(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030109,51030109,ค่าวัสดุที่ใช้จัดกิจกรรม(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030110,51030110,ค่าของที่ระลึก ของรางวัล (พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030111,51030111,ค่าจัดการสถานที่ (พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030190,51030190,ค่าใช้จ่ายอื่น(พัฒนาบุคลากร-เดินทาง/อบรมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030200,51030200,ค่าใช้จ่ายในการเดินทาง สัมมนาและฝึกอบรม ต่างประเทศ,Expenses,nxpo_coa.chart,FALSE
+account_51030201,51030201,ตั๋วเครื่องบิน(พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030202,51030202,ค่าพาหนะอื่น ๆ(พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030203,51030203,ค่าเบี้ยเลี้ยง(พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030204,51030204,ค่าลงทะเบียน(พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030205,51030205,ค่าที่พัก(พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030206,51030206,ค่าพาหนะอื่นๆ ภายในประเทศ(พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030207,51030207,ค่าจ้าง Outsource (พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030210,51030210,ค่าของที่ระลึก ของรางวัล (พัฒนาบุคลากร-เดินทาง/อบรมใน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_51030290,51030290,ค่าใช้จ่ายอื่น(พัฒนาบุคลากร-เดินทาง/อบรม ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52000000,52000000,ค่าใช้จ่ายดำเนินงาน,Expenses,nxpo_coa.chart,FALSE
+account_52100000,52100000,ค่าตอบแทน,Expenses,nxpo_coa.chart,FALSE
+account_52100101,52100101,ค่าเบี้ยประชุม,Expenses,nxpo_coa.chart,FALSE
+account_52100201,52100201,ค่าตอบแทนผู้ปฏิบัติงานให้สำนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_52100901,52100901,ค่าตอบแทนอื่น,Expenses,nxpo_coa.chart,FALSE
+account_52200000,52200000,ค่าใช้สอย,Expenses,nxpo_coa.chart,FALSE
+account_52201000,52201000,ค่าจัดฝึกอบรมและสัมมนาในประเทศ,Expenses,nxpo_coa.chart,FALSE
+account_52201001,52201001,ค่าวิทยากร พิธีกร และล่าม(บุคคลภายนอก)(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201002,52201002,ค่าวิทยากร พิธีกร และล่าม(บุคคลภายใน)(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201003,52201003,ค่าจัดการสถานที่(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201004,52201004,ค่าเบี้ยเลี้ยงจัดสัมมนา(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201005,52201005,ค่าตั๋วเครื่องบิน(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201006,52201006,ค่าพาหนะ(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201007,52201007,ค่าที่พัก(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201008,52201008,ค่าวัสดุหนังสือ วารสาร และตำรา(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201009,52201009,ค่าวัสดุที่ใช้ในการอบรม(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201010,52201010,ค่าโฆษณา/สื่อสิ่งพิมพ์/ผลิตสื่อ (จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201011,52201011,ค่าเช่าอุปกรณ์(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201012,52201012,ค่าอาหารเครื่องดื่ม(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201013,52201013,ค่าของที่ระลึก ของรางวัล (จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201014,52201014,ค่าจ้าง Outsource(จัดอบรมสัมมนาในประเทศ),Expenses,nxpo_coa.chart,FALSE
+account_52201015,52201015,ค่าบริการที่จอดรถ(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52201090,52201090,ค่าใช้จ่ายอื่น(จัดอบรมสัมมนาใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202000,52202000,ค่าจัดฝึกอบรมและสัมมนาต่างประเทศ,Expenses,nxpo_coa.chart,FALSE
+account_52202001,52202001,ค่าวิทยากร พิธีกร และล่าม(บุคคลภายนอก)(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202002,52202002,ค่าวิทยากร พิธีกร และล่าม(บุคคลภายใน)(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202003,52202003,ค่าจัดการสถานที่ (จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202004,52202004,ค่าเบี้ยเลี้ยงจัดสัมมนา(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202005,52202005,ค่าตั๋วเครื่องบิน(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202006,52202006,ค่าพาหนะ (จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202007,52202007,ค่าที่พัก (จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202008,52202008,ค่าวัสดุหนังสือ วารสาร และตำรา (จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202009,52202009,ค่าวัสดุที่ใช้ในการอบรม(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202010,52202010,ค่าโฆษณา/สื่อสิ่งพิมพ์/ผลิตสื่อ (จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202011,52202011,ค่าเช่าอุปกรณ์(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202012,52202012,ค่าอาหารเครื่องดื่ม(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202013,52202013,ค่าของที่ระลึก ของรางวัล(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202014,52202014,ค่าจ้าง Outsource(จัดอบรมสัมมนาในต่างประเทศ),Expenses,nxpo_coa.chart,FALSE
+account_52202015,52202015,ค่าพาหนะอื่นๆภายในประเทศ(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202016,52202016,ค่าลงทะเบียน(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52202090,52202090,ค่าใช้จ่ายอื่น(จัดอบรมสัมมนา ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203000,52203000,ค่าใช้จ่ายในการไปปฎิบัติงานนอกสถานที่ ในประเทศ,Expenses,nxpo_coa.chart,FALSE
+account_52203001,52203001,ตั๋วเครื่องบิน(ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203002,52203002,ค่าพาหนะอื่น ๆ(ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203003,52203003,ค่าเบี้ยเลี้ยง(ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203004,52203004,ค่าที่พัก(ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203005,52203005,ค่าอาหารเครื่องดื่ม(ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203006,52203006,ค่าของที่ระลึก ของรางวัล (ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203090,52203090,ค่าใช้จ่ายอื่น(ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203091,52203091,ค่าใช้จ่ายในการดินทางปฏิบัติงานในประเทศ(ปฎิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52203092,52203092,ค่าลงทะเบียน(ปฏิบัติงานใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204000,52204000,ค่าใช้จ่ายในการไปปฎิบัติงานนอกสถานที่ ในต่างประเทศ,Expenses,nxpo_coa.chart,FALSE
+account_52204001,52204001,ตั๋วเครื่องบิน(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204002,52204002,ค่าพาหนะอื่น ๆ(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204003,52204003,ค่าเบี้ยเลี้ยง(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204004,52204004,ค่าที่พัก(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204005,52204005,ค่าอาหารเครื่องดื่ม(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204006,52204006,ค่าของที่ระลึก ของรางวัล(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204007,52204007,ค่าพาหนะอื่นๆภายในประเทศ(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204008,52204008,ค่าลงทะเบียน(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204090,52204090,ค่าใช้จ่ายอื่น(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52204091,52204091,ค่าใช้จ่ายในการเดินทางปฏิบัติงานต่างประเทศ(ปฎิบัติงาน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52205000,52205000,ค่าธรรมเนียม,Expenses,nxpo_coa.chart,FALSE
+account_52205001,52205001,ค่าภาษีและค่าธรรมเนียม,Expenses,nxpo_coa.chart,FALSE
+account_52205003,52205003,ค่าธรรมเนียมธนาคาร,Expenses,nxpo_coa.chart,FALSE
+account_52205090,52205090,ค่าธรรมเนียมอื่น,Expenses,nxpo_coa.chart,FALSE
+account_52206000,52206000,ค่าซ่อมแซมและบำรุงรักษา,Expenses,nxpo_coa.chart,FALSE
+account_52206001,52206001,ค่าซ่อมแซม/บำรุง อาคาร,Expenses,nxpo_coa.chart,FALSE
+account_52206002,52206002,ค่าซ่อมแซม/บำรุง ครุภัณฑ์และอุปกรณ์,Expenses,nxpo_coa.chart,FALSE
+account_52206004,52206004,ค่าบำรุงรักษาเครือข่าย,Expenses,nxpo_coa.chart,FALSE
+account_52206005,52206005,ค่าซ่อมแซม/บำรุง/ตกแต่งสำนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_52207000,52207000,ค่ารับรองและพิธีการ,Expenses,nxpo_coa.chart,FALSE
+account_52207001,52207001,ค่าอาหารและเครื่องดื่ม(รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207002,52207002,ค่ารับรองและพิธีการ (ในปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207003,52207003,ค่าตั๋วเครื่องบิน(รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207004,52207004,ค่าที่พัก(รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207005,52207005,ค่าเบี้ยประชุม(รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207006,52207006,ค่าพาหนะ(รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207007,52207007,ค่าใช้จ่ายอื่นๆ (รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207008,52207008,ค่าวัสดุที่ใช้ในการประชุม (รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207009,52207009,ค่าวัสดุหนังสือ วารสาร และตำรา(รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207010,52207010,ค่าเบี้ยเลี้ยง (รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207011,52207011,ค่าเบี้ยประชุม-สภาและกอวช. (รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207012,52207012,ค่าเบี้ยประชุม-กรรมการประเมินฯ (รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207013,52207013,ค่าเบี้ยประชุม-อนุกรรมการภายใต้ กอวช. (รับรองใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207101,52207101,ค่าอาหารและเครื่องดื่ม(รับรองใน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207102,52207102,ค่าของที่ระลึก ของรางวัลและพิธีการ (รับรองใน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207103,52207103,ค่าตั๋วเครื่องบิน(รับรองใน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207104,52207104,ค่าที่พัก(รับรองใน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207105,52207105,ค่าเบี้ยประชุม(รับรองใน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52207106,52207106,ค่าพาหนะ(รับรองใน ตปท.),Expenses,nxpo_coa.chart,FALSE
+account_52208000,52208000,ค่าเบี้ยประกันภัย,Expenses,nxpo_coa.chart,FALSE
+account_52208001,52208001,ค่าเบี้ยประกันภัย-บุคคล,Expenses,nxpo_coa.chart,FALSE
+account_52208003,52208003,ค่าเบี้ยประกันภัย,Expenses,nxpo_coa.chart,FALSE
+account_52209000,52209000,ค่าใช้จ่ายบริหารอาคาร,Expenses,nxpo_coa.chart,FALSE
+account_52209002,52209002,ค่าบริการรักษาความปลอดภัย,Expenses,nxpo_coa.chart,FALSE
+account_52209003,52209003,ค่าบริการรักษาความสะอาด,Expenses,nxpo_coa.chart,FALSE
+account_52209005,52209005,ค่าบริการพื้นที่เช่าสำนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_52210000,52210000,ค่าเช่าทรัพย์สิน,Expenses,nxpo_coa.chart,FALSE
+account_52210002,52210002,ค่าเช่าสำนักงาน/สถานที่,Expenses,nxpo_coa.chart,FALSE
+account_52210003,52210003,ค่าเช่ารถ/พนักงานขับรถ,Expenses,nxpo_coa.chart,FALSE
+account_52210004,52210004,ค่าเช่าอุปกรณ์สำนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_52210005,52210005,ค่าเช่าอุปกรณ์คอมพิวเตอร์,Expenses,nxpo_coa.chart,FALSE
+account_52210006,52210006,ค่าเช่าเครื่องถ่ายเอกสาร,Expenses,nxpo_coa.chart,FALSE
+account_52210007,52210007,ค่าเช่าที่พัก,Expenses,nxpo_coa.chart,FALSE
+account_52210008,52210008,ค่าเช่าห้องปฎิบัติการ,Expenses,nxpo_coa.chart,FALSE
+account_52210009,52210009,ค่าจอดรถ,Expenses,nxpo_coa.chart,FALSE
+account_52210090,52210090,ค่าเช่าทรัพย์สิน อื่นๆ,Expenses,nxpo_coa.chart,FALSE
+account_52211000,52211000,ค่าเช่าและบริการเครือข่าย,Expenses,nxpo_coa.chart,FALSE
+account_52211001,52211001,ค่าบริการอินเทอร์เน็ต,Expenses,nxpo_coa.chart,FALSE
+account_52211002,52211002,ค่าบริการฐานข้อมูลในประเทศและต่างประเทศ,Expenses,nxpo_coa.chart,FALSE
+account_52211003,52211003,ค่าเช่าและบริการเครือข่าย,Expenses,nxpo_coa.chart,FALSE
+account_52212000,52212000,ค่าบริการเทคนิคและวิเคราะห์,Expenses,nxpo_coa.chart,FALSE
+account_52212003,52212003,ค่าจ้างรวบรวม/วิเคราะห์ข้อมูล/จัดทำรายงาน,Expenses,nxpo_coa.chart,FALSE
+account_52213000,52213000,ค่าโฆษณาและประชาสัมพันธ์,Expenses,nxpo_coa.chart,FALSE
+account_52213001,52213001,ค่าโฆษณา/สื่อสิ่งพิมพ์/ผลิตสื่อ,Expenses,nxpo_coa.chart,FALSE
+account_52215000,52215000,ผลต่างจากการปรับมูลค่าทางบัญชี,Expenses,nxpo_coa.chart,FALSE
+account_52215002,52215002,ผลต่างจากการปรับยอดภาษีเงินได้ หัก ณ ที่จ่าย,Expenses,nxpo_coa.chart,FALSE
+account_52216000,52216000,ค่าใช้สอยอื่น,Expenses,nxpo_coa.chart,FALSE
+account_52216001,52216001,ค่าถ่ายเอกสาร/พิมพ์เขียว,Expenses,nxpo_coa.chart,FALSE
+account_52216002,52216002,ค่าจ้างบริการรับส่งเอกสารและพัสดุ,Expenses,nxpo_coa.chart,FALSE
+account_52216003,52216003,ค่าจ้างทำบัญชี,Expenses,nxpo_coa.chart,FALSE
+account_52216004,52216004,ค่าจ้างบริการอื่น,Expenses,nxpo_coa.chart,FALSE
+account_52216008,52216008,ค่าจ้างพัฒนาสื่อการเรียนรู้/เว็บไซด์,Expenses,nxpo_coa.chart,FALSE
+account_52216009,52216009,ค่าจ้างประเมินสินทรัพย์,Expenses,nxpo_coa.chart,FALSE
+account_52216090,52216090,ค่าใช้สอยอื่นๆ,Expenses,nxpo_coa.chart,FALSE
+account_52218000,52218000,ค่าใช้จ่ายในการจัดประชุม,Expenses,nxpo_coa.chart,FALSE
+account_52218001,52218001,ค่าวิทยากร พิธีกร และล่าม(บุคคลภายนอก)(จัดประชุม),Expenses,nxpo_coa.chart,FALSE
+account_52218002,52218002,ค่าวิทยากร พิธีกร และล่าม(บุคคลภายใน)(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218003,52218003,ค่าจัดการสถานที่(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218004,52218004,ค่าเบี้ยเลี้ยงจัดประชุม(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218005,52218005,ค่าตั๋วเครื่องบิน(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218006,52218006,ค่าพาหนะ(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218007,52218007,ค่าที่พัก(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218008,52218008,ค่าวัสดุหนังสือ วารสาร และตำรา(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218009,52218009,ค่าวัสดุที่ใช้ในการประชุม(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218010,52218010,ค่าโฆษณา/สื่อสิ่งพิมพ์/ผลิตสื่อ (จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218011,52218011,ค่าเช่าอุปกรณ์(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218012,52218012,ค่าอาหารเครื่องดื่ม(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218013,52218013,ค่าของที่ระลึก ของรางวัล (จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218014,52218014,ค่าจ้าง Outsource(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218015,52218015,ค่าบริการที่จอดรถ(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52218090,52218090,ค่าใช้จ่ายอื่น(จัดประชุมใน ปท.),Expenses,nxpo_coa.chart,FALSE
+account_52300000,52300000,ค่าวัสดุ,Expenses,nxpo_coa.chart,FALSE
+account_52300101,52300101,ค่าวัสดุสำนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_52300201,52300201,ค่าวัสดุโฆษณาและเผยแพร่,Expenses,nxpo_coa.chart,FALSE
+account_52300401,52300401,ค่าวัสดุงานบ้านและงานครัว,Expenses,nxpo_coa.chart,FALSE
+account_52300501,52300501,ค่าวัสดุหนังสือ วารสาร และตำรา,Expenses,nxpo_coa.chart,FALSE
+account_52300601,52300601,ค่าวัสดุหนังสือ วารสาร และตำรา (สำหรับขาย),Expenses,nxpo_coa.chart,FALSE
+account_52300801,52300801,ค่าวัสดุคอมพิวเตอร์,Expenses,nxpo_coa.chart,FALSE
+account_52300901,52300901,ค่าวัสดุอุปกรณ์ทางการแพทย์,Expenses,nxpo_coa.chart,FALSE
+account_52301001,52301001,ค่าวัสดุไฟฟ้าและวิทยุ,Expenses,nxpo_coa.chart,FALSE
+account_52301301,52301301,ค่าเชื้อเพลิง/หล่อลื่น,Expenses,nxpo_coa.chart,FALSE
+account_52301401,52301401,ค่าวัสดุความปลอดภัย,Expenses,nxpo_coa.chart,FALSE
+account_52304001,52304001,ค่าวัสดุอื่น,Expenses,nxpo_coa.chart,FALSE
+account_52305001,52305001,ค่าครุภัณฑ์มูลค่าต่ำ (อายุการใช้งาน > 1 ปี),Expenses,nxpo_coa.chart,FALSE
+account_52400000,52400000,ค่าสาธารณูปโภค,Expenses,nxpo_coa.chart,FALSE
+account_52400101,52400101,ค่าไฟฟ้า,Expenses,nxpo_coa.chart,FALSE
+account_52400201,52400201,ค่าประปา,Expenses,nxpo_coa.chart,FALSE
+account_52400301,52400301,ค่าโทรศัพท์ประจำสำนักงาน,Expenses,nxpo_coa.chart,FALSE
+account_52400401,52400401,ค่าโทรศัพท์มือถือ (รวม Air Card),Expenses,nxpo_coa.chart,FALSE
+account_52400501,52400501,ค่าไปรษณีย์,Expenses,nxpo_coa.chart,FALSE
+account_52400601,52400601,ค่าบริการโทรคมนาคม,Expenses,nxpo_coa.chart,FALSE
+account_52500000,52500000,เงินอุดหนุน,Expenses,nxpo_coa.chart,FALSE
+account_52510000,52510000,เงินอุดหนุนการวิจัย,Expenses,nxpo_coa.chart,FALSE
+account_52510101,52510101,เงินอุดหนุนโครงการ,Expenses,nxpo_coa.chart,FALSE
+account_52510102,52510102,เงินอุดหนุนโครงการวิจัย บพท. (PMU A),Expenses,nxpo_coa.chart,FALSE
+account_52510103,52510103,เงินอุดหนุนโครงการวิจัย บพค. (PMU B),Expenses,nxpo_coa.chart,FALSE
+account_52510104,52510104,เงินอุดหนุนโครงการวิจัย บพข. (PMU C),Expenses,nxpo_coa.chart,FALSE
+account_52510401,52510401,เงินสนับสนุนนักเรียนทุน,Expenses,nxpo_coa.chart,FALSE
+account_52520000,52520000,เงินอุดหนุนประชุม/สัมมนา/ฝึกอบรม,Expenses,nxpo_coa.chart,FALSE
+account_52520101,52520101,อุดหนุนการเข้าร่วมประชุมสัมมนา,Expenses,nxpo_coa.chart,FALSE
+account_52520201,52520201,อุดหนุนเพื่อจัดประชุม/สัมมนา/ฝึกอบรม,Expenses,nxpo_coa.chart,FALSE
+account_52590000,52590000,เงินอุดหนุนอื่นๆ,Expenses,nxpo_coa.chart,FALSE
+account_52599901,52599901,เงินอุดหนุนอื่นๆ,Expenses,nxpo_coa.chart,FALSE
+account_52600000,52600000,รายจ่ายอื่น,Expenses,nxpo_coa.chart,FALSE
+account_52602000,52602000,ค่าจ้างที่ปรึกษา/ศึกษา,Expenses,nxpo_coa.chart,FALSE
+account_52602001,52602001,ค่าจ้างบริหารงาน/ประสานงาน,Expenses,nxpo_coa.chart,FALSE
+account_52602002,52602002,ค่าจ้างที่ปรึกษา/ผู้เชี่ยวชาญ,Expenses,nxpo_coa.chart,FALSE
+account_52602003,52602003,ค่าศึกษา/ประเมิน โครงการ,Expenses,nxpo_coa.chart,FALSE
+account_52603000,52603000,ค่าสอบ,Expenses,nxpo_coa.chart,FALSE
+account_52603001,52603001,ค่าสอบบัญชี,Expenses,nxpo_coa.chart,FALSE
+account_52604000,52604000,ค่าสมาชิก,Expenses,nxpo_coa.chart,FALSE
+account_52604001,52604001,ค่าสมาชิก,Expenses,nxpo_coa.chart,FALSE
+account_52605000,52605000,ค่าจัดหาครุภัณฑ์-อุปกรณ์/จ้างบริการ สำหรับงานรับจ้าง,Expenses,nxpo_coa.chart,FALSE
+account_52605051,52605051,ค่าจ้างบริการ-IT Outsource,Expenses,nxpo_coa.chart,FALSE
+account_52606000,52606000,ค่าบริหารจัดการ,Expenses,nxpo_coa.chart,FALSE
+account_52606001,52606001,ค่าบริหารจัดการโครงการ,Expenses,nxpo_coa.chart,FALSE
+account_52701900,52701900,ดอกเบี้ยจ่าย,Expenses,nxpo_coa.chart,FALSE
+account_52900000,52900000,กำไร/ขาดทุน อัตราแลกเปลี่ยนเงินตรา ตปท,Expenses,nxpo_coa.chart,FALSE
+account_52900100,52900100,กำไร/ขาดทุน อัตราแลกเปลี่ยนเงินตรา ตปท,Expenses,nxpo_coa.chart,FALSE
+account_53000000,53000000,กำไร/ขาดทุน จากการจำหน่ายครุภัณฑ์และอุปกรณ์,Expenses,nxpo_coa.chart,FALSE
+account_53000101,53000101,กำไร/ขาดทุน จากการจำหน่ายครุภัณฑ์และอุปกรณ์,Expenses,nxpo_coa.chart,FALSE
+account_53000201,53000201,ส่วนเพิ่ม (ลด) จากเงินร่วมทุน,Expenses,nxpo_coa.chart,FALSE
+a_exp_loss,5500,Loss Account,Expenses,nxpo_coa.chart,FALSE
+account_90000002,90000002,บัญชีพักสินทรัพย์/ยอดยกมา,Expenses,nxpo_coa.chart,FALSE
