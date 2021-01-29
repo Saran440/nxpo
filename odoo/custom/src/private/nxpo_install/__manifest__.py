@@ -16,6 +16,7 @@
         "account",
         "hr_expense",
         # OCA Modules
+        "base_rest",  # this will be standard webservice for this project
         "date_range",
         "account_menu",
         "purchase_request",
