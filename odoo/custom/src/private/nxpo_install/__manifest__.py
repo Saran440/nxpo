@@ -27,7 +27,7 @@
         "hr_expense_sequence",
         "hr_expense_operating_unit",
         "hr_expense_advance_clearing_detail",
-        "purchase_operating_unit",
+        "hr_expense_advance_clearing_detail_operating_unit" "purchase_operating_unit",
         "purchase_request_operating_unit",
         "l10n_th_base_location",
         "mis_builder_budget_activity_group",
@@ -53,6 +53,7 @@
         "nxpo_res_project_department",
         "nxpo_res_project_monitoring_report",
         "nxpo_budget_revision_monitoring_project",
+        "nxpo_advance_clearing_detail_analytic",
     ],
     "installable": True,
 }
