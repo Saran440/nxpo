@@ -116,3 +116,10 @@ connector:
   - component
 rest-framework:
   - base_rest
+requests:
+  - requests
+  - requests_all_spending
+  - requests_hr_advance
+  - requests_hr_expense
+  - requests_purchase_request
+  - requests_tier_validation
