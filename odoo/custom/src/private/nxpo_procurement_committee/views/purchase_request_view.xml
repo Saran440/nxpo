@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_purchase_request_form" model="ir.ui.view">
+        <field name="model">purchase.request</field>
+        <field name="inherit_id" ref="purchase_request.view_purchase_request_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/notebook" position="inside">
+                <page string="Committee">
+                    <group string="Procurement Committee">
+                        <field
+                            nolabel="1"
+                            name="committee_procurement_line_ids"
+                            context="{'committee_type': 'procurement'}"
+                            attrs="{'readonly': [('state','=', 'done')]}"
+                        >
+                            <tree editable="bottom">
+                                <field name="employee_id" string="Name" />
+                                <field name="approve_role" />
+                                <field name="department_id" />
+                                <field name="email" />
+                                <field name="phone" />
+                                <field name="committee_type" invisible="1" />
+                                <field name="state" />
+                                <field
+                                    name="note"
+                                    attrs="{'required':[('state', '=', 'cancel')]}"
+                                />
+                            </tree>
+                        </field>
+                    </group>
+                    <field name="default_approve_role" invisible="1" />
+                    <group string="Inspection Committee">
+                        <field
+                            nolabel="1"
+                            name="committee_audit_line_ids"
+                            context="{'committee_type': 'audit','default_approve_role': default_approve_role}"
+                            attrs="{'readonly': [('state','=', 'done')]}"
+                        >
+                            <tree editable="bottom">
+                                <field name="employee_id" string="Name" />
+                                <field name="approve_role" />
+                                <field name="department_id" />
+                                <field name="email" />
+                                <field name="phone" />
+                                <field name="committee_type" invisible="1" />
+                                <field name="state" />
+                                <field
+                                    name="note"
+                                    attrs="{'required':[('state', '=', 'cancel')]}"
+                                />
+                            </tree>
+                        </field>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
