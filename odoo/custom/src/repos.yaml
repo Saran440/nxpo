@@ -221,3 +221,12 @@ stock-logistics-workflow:
   merges:
     - origin $ODOO_VERSION
     - origin refs/pull/738/head # stock_return_request
+
+requests:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/ecosoft-odoo/requests.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
