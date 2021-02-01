@@ -112,3 +112,7 @@ reporting-engine:
   - report_xlsx_helper
 web:
   - web_widget_x2many_2d_matrix
+connector:
+  - component
+rest-framework:
+  - base_rest

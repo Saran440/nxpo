@@ -1,3 +1,8 @@
 git+https://github.com/OCA/openupgradelib.git@master
 unicodecsv
 unidecode
+cachetools
+cerberus
+pyquerystring
+parse-accept-language
+apispec
