@@ -74,6 +74,15 @@ account-financial-tools:
     - origin refs/pull/1082/head # account_check_deposit
     - origin refs/pull/1081/head # account_fiscal_year
 
+account-financial-reporting:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/account-financial-reporting.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+
 operating-unit:
   defaults:
     depth: $DEPTH_MERGE

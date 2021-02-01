@@ -18,6 +18,7 @@
         # OCA Modules
         "date_range",
         "account_menu",
+        "account_financial_report",
         "purchase_request",
         "account_asset_management",
         "analytic_base_department",
