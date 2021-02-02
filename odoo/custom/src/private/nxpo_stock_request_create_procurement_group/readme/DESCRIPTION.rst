@@ -1,0 +1,1 @@
+- สร้าง Procurement Group โดยชื่อเดียวกันกับ stock request เพื่อไม่ให้ picking internal transfer ไปรวมกัน
