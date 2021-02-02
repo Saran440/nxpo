@@ -25,6 +25,7 @@ budgeting:
   - budget_control_revision_department_monitoring
   - budget_control_revision_plan_readonly
   - budget_control_transfer
+  - budget_control_transfer_tier_validation
   - budget_monitoring_operating_unit
   - budget_monitoring_operating_unit_expense
   - budget_monitoring_operating_unit_advance

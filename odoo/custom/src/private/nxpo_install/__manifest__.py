@@ -42,6 +42,7 @@
         "budget_control_revision_plan_readonly",
         "budget_control_revision_department_monitoring",
         "budget_control_transfer",
+        "budget_control_transfer_tier_validation",
         "budget_control_exception",
         "budget_control_operating_unit",
         "budget_source_fund",
