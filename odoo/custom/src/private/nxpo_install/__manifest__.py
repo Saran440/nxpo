@@ -52,6 +52,7 @@
         "budget_activity_monitoring_purchase_request",
         "budget_monitoring_operating_unit",
         # NxPO Modules
+        "nxpo_budget_control_department",
         "nxpo_res_project",
         "nxpo_res_project_department",
         "nxpo_res_project_monitoring_report",
