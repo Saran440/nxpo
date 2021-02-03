@@ -6,12 +6,19 @@ services:
       file: common.yaml
       service: odoo
     restart: unless-stopped
+    ports:
+      - "14069:8069"
+      - "14072:8072"
     env_file:
       - .docker/odoo.env
       - .docker/db-access.env
     environment:
       DOODBA_ENVIRONMENT: "${DOODBA_ENVIRONMENT-prod}"
       INITIAL_LANG: "en_US"
+    volumes:
+      - ./odoo/custom:/opt/odoo/custom:rw,z
+      - ./odoo/auto:/opt/odoo/auto:rw,z
+      - /opt/odoo/custom/src/odoo
     depends_on:
       - db
     networks:
@@ -31,9 +38,6 @@ networks:
   default:
     driver_opts:
       encrypted: 1
-
-  inverseproxy_shared:
-    external: true
 
 volumes:
   filestore:
