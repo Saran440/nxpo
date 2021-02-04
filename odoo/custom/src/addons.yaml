@@ -34,6 +34,7 @@ budgeting:
   - budget_monitoring_operating_unit_purchase
   - budget_monitoring_operating_unit_purchase_request
   - budget_source_fund
+  - budget_source_fund_operating_unit
   - budget_source_fund_exception
   - hr_expense_advance_clearing_detail_activity
   - hr_expense_advance_clearing_detail_operating_unit
