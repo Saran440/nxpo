@@ -50,7 +50,7 @@
         "budget_control_exception",
         "budget_control_operating_unit",
         "budget_source_fund",
-        "budget_source_fund_operating_unit",
+        # "budget_source_fund_operating_unit", # May be this module is not used.
         "budget_activity",
         "budget_activity_group",
         "budget_activity_monitoring",
@@ -58,7 +58,7 @@
         # "budget_monitoring_operating_unit",
         # NxPO Modules
         "nxpo_budget_control_department",
-        "nxpo_budget_source_fund_department",
+        # "nxpo_budget_source_fund_department", # May be this module is not used.
         "nxpo_res_project",
         "nxpo_res_project_analytic",
         "nxpo_res_project_department",
