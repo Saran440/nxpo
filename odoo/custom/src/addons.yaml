@@ -25,12 +25,16 @@ budgeting:
   - budget_control_revision_department_monitoring
   - budget_control_revision_plan_readonly
   - budget_control_transfer
+  - budget_control_transfer_by_operating_unit
+  - budget_control_transfer_operating_unit
+  - budget_control_transfer_tier_validation
   - budget_monitoring_operating_unit
   - budget_monitoring_operating_unit_expense
   - budget_monitoring_operating_unit_advance
   - budget_monitoring_operating_unit_purchase
   - budget_monitoring_operating_unit_purchase_request
   - budget_source_fund
+  - budget_source_fund_operating_unit
   - budget_source_fund_exception
   - hr_expense_advance_clearing_detail_activity
   - hr_expense_advance_clearing_detail_operating_unit
