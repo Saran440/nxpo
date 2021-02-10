@@ -3,7 +3,7 @@
 
 {
     "name": "NxPO - Add department on Budget Source of Funds",
-    "summary": "add fields department on budget source of fund for NxPO",
+    "summary": "Add fields department on budget source of fund for NxPO",
     "version": "14.0.1.0.0",
     "category": "NxPO",
     "license": "AGPL-3",
