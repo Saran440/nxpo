@@ -19,6 +19,7 @@
         "base_rest",  # this will be standard webservice for this project
         "date_range",
         "account_menu",
+        "account_financial_report",
         "purchase_request",
         "account_asset_management",
         "analytic_base_department",
