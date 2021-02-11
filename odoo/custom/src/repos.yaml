@@ -42,7 +42,6 @@ purchase-workflow:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/1023/head # purchase_open_qty
     - origin refs/pull/1016/head # purchase_isolated_rfq
     - origin refs/pull/1021/head # purchase_work_acceptance_evaluation
     - origin refs/pull/1020/head # purchase_work_acceptance_late_fines
