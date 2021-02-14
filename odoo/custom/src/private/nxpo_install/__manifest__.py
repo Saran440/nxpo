@@ -38,6 +38,7 @@
         "base_tier_validation_forward",
         "base_tier_validation_server_action",
         "budget_control",
+        "budget_control_selection_plan",
         "budget_control_expense",
         "budget_control_purchase",
         "budget_control_purchase_request",
