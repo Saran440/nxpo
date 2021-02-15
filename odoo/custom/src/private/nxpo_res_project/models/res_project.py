@@ -8,7 +8,6 @@ class ResProject(models.Model):
     _name = "res.project"
     _description = "Project Management"
     _inherit = "mail.thread"
-    _order = "sequence, id"
     _check_company_auto = True
 
     name = fields.Char(
@@ -18,19 +17,10 @@ class ResProject(models.Model):
         tracking=True,
     )
     parent_project = fields.Char(readonly=True)
-    description = fields.Html(
-        readonly=True, copy=False, states={"draft": [("readonly", False)]}
-    )
     active = fields.Boolean(
         default=True,
         help="If the active field is set to False, "
         "it will allow you to hide the project without removing it.",
-    )
-    sequence = fields.Integer(
-        default=10,
-        readonly=True,
-        states={"draft": [("readonly", False)]},
-        help="Gives the sequence order when displaying a list of Projects.",
     )
     company_id = fields.Many2one(
         comodel_name="res.company",
