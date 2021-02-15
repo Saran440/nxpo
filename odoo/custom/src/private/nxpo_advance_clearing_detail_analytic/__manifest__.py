@@ -9,7 +9,7 @@
     "license": "AGPL-3",
     "website": "https://github.com/OCA/hr-expense",
     "depends": [
-        "hr_expense_advance_clearing_detail",
+        "hr_expense_advance_clearing_detail_activity",
     ],
     "data": ["views/hr_expense_views.xml"],
     "installable": True,

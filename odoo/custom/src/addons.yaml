@@ -38,6 +38,7 @@ budgeting:
   - budget_source_fund_operating_unit
   - budget_source_fund_exception
   - budget_plan
+  - budget_plan_revision
   - hr_expense_advance_clearing_detail_activity
   - hr_expense_advance_clearing_detail_operating_unit
   - mis_builder_budget_activity_group
