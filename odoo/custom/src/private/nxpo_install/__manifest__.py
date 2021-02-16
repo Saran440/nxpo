@@ -52,6 +52,7 @@
         "budget_control_operating_unit",
         "budget_source_fund",
         "budget_source_fund_objective",
+        "budget_source_fund_revision",
         "budget_plan",
         "budget_plan_revision",
         # "budget_source_fund_operating_unit", # May be this module is not used.

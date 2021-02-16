@@ -37,6 +37,7 @@ budgeting:
   - budget_source_fund_objective
   - budget_source_fund_operating_unit
   - budget_source_fund_exception
+  - budget_source_fund_revision
   - budget_plan
   - budget_plan_revision
   - hr_expense_advance_clearing_detail_activity
