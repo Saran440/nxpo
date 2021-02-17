@@ -15,6 +15,7 @@ budgeting:
   - budget_activity_purchase
   - budget_activity_purchase_request
   - budget_control
+  - budget_control_selection_plan
   - budget_control_advance_clearing
   - budget_control_exception
   - budget_control_expense
@@ -25,7 +26,6 @@ budgeting:
   - budget_control_revision_department_monitoring
   - budget_control_revision_plan_readonly
   - budget_control_transfer
-  - budget_control_transfer_allocation
   - budget_control_transfer_operating_unit
   - budget_control_transfer_tier_validation
   - budget_monitoring_operating_unit
@@ -34,6 +34,7 @@ budgeting:
   - budget_monitoring_operating_unit_purchase
   - budget_monitoring_operating_unit_purchase_request
   - budget_source_fund
+  - budget_source_fund_objective
   - budget_source_fund_operating_unit
   - budget_source_fund_exception
   - budget_plan
@@ -72,6 +73,7 @@ server-backend:
   - base_user_role
 server-tools:
   - base_exception
+  - module_auto_update
 hr-expense:
   - hr_expense_advance_clearing
   - hr_expense_advance_clearing_detail
