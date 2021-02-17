@@ -134,7 +134,7 @@ server-ux:
   merges:
     - origin $ODOO_VERSION
     - origin refs/pull/246/head # base_revision
-    - origin refs/pull/228/head # base_tier_validation_server_action
+    - origin refs/pull/280/head # base_tier_validation_server_action
 
 server-tools:
   defaults:
