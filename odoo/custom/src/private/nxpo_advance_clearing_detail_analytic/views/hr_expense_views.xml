@@ -11,7 +11,7 @@
             <xpath expr="//field[@name='advance_line']" position="attributes">
                 <attribute
                     name="context"
-                >{'default_analytic_account_id': analytic_account_id}</attribute>
+                >{'default_activity_id': activity_id, 'default_analytic_account_id': analytic_account_id}</attribute>
             </xpath>
             <xpath expr="//page[@name='advance']//tree" position="inside">
                 <field name="analytic_account_id" />

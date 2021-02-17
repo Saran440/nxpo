@@ -1,28 +1,30 @@
 id,name
-base.budget_activity_group_01,ค่าใช้จ่ายในการประชุม/ อบรม-สัมมนา/ พัฒนาบุคลากร ในประเทศ
-base.budget_activity_group_02,ค่าใช้จ่ายในการประชุม/ อบรม-สัมมนา/ พัฒนาบุคลากร ในต่างประเทศ
-base.budget_activity_group_03,ค่าใช้จ่ายในการจัดประชุม/ อบรม-สัมมนา/ พัฒนาบุคลากรในประเทศ
-base.budget_activity_group_04,ค่าใช้จ่ายในการจัดประชุม/ อบรม-สัมมนา/ พัฒนาบุคลากรในต่างประเทศ
-base.budget_activity_group_05,ค่าเบี้ยประชุมคณะกรรมการประเมิน
-base.budget_activity_group_06,ค่าเบี้ยประชุมคณะกรรมการอำนวยการ
-base.budget_activity_group_07,ค่าเบี้ยประชุมคณะอนุกรรมการภายใต้สอวช.และคณะกรรมการอำนวยการ
-base.budget_activity_group_08,ค่ารับรองคณะกรรมการ คณะอนุกรรมการ
-base.budget_activity_group_09,ค่าจ้างที่ปรึกษา/ ผู้เชี่ยวชาญ/ ลูกจ้าง
-base.budget_activity_group_10,ค่าจ้างเหมาบริการ
-base.budget_activity_group_11,ค่าจัดทำรายงานและเอกสาร
-base.budget_activity_group_12,ค่าจัดทำกิจกรรมสื่อสารและเผยแพร่
-base.budget_activity_group_13,เงินเดือนอัตราเดิม + ค่าตอบแทนผู้บริหาร
-base.budget_activity_group_14,กองทุนสำรองเลี้ยงชีพ
-base.budget_activity_group_15,ค่าเช่าพื้นที่สำนักงาน
-base.budget_activity_group_16,ค่าเช่าเครื่องถ่ายเอกสาร
-base.budget_activity_group_17,ค่าเช่ารถประจำตำแหน่ง
-base.budget_activity_group_18,ค่าโทรศัพท์
-base.budget_activity_group_19,ค่าไปรษณีย์
-base.budget_activity_group_20,ค่าไฟฟ้า
-base.budget_activity_group_21,ค่าครุภัณฑ์
-base.budget_activity_group_22,ค่าใช้สอยอื่นๆ
-base.budget_activity_group_23,การจัดหาระบบฐานข้อมูล ระบบคอมพิวเตอร์
-base.budget_activity_group_24,ค่าบริการเครือข่าย WiFi LAN และค่าเช่าครุภัณฑ์บริการเครือข่ายสื่อสารข้อมูลแบบ VPN
-base.budget_activity_group_25,ค่าบริการโทรคมนาคม
-base.budget_activity_group_26,ค่ารักษาพยาบาล และสวัสดิการเลือกได้อิสระ
-base.budget_activity_group_27,ค่าวัสดุ
+base.budget_activity_group_01,การเข้าร่วมประชุม-สัมมนา ในประเทศ
+base.budget_activity_group_02,การเข้าร่วมอบรม-พัฒนาบุคลากร ในประเทศ
+base.budget_activity_group_03,การจัดประชุม-สัมมนา ในประเทศ
+base.budget_activity_group_04,การจัดอบรม-พัฒนาบุคลากร ในประเทศ
+base.budget_activity_group_05,การเข้าร่วมประชุม-สัมมนา ต่างประเทศ
+base.budget_activity_group_06,การเข้าร่วมอบรม-พัฒนาบุคลากร ต่างประเทศ
+base.budget_activity_group_07,การจัดประชุม-สัมมนา ต่างประเทศ
+base.budget_activity_group_08,การจัดอบรม-พัฒนาบุคลากร ต่างประเทศ
+base.budget_activity_group_09,ประชุมคณะอนุชี้วัด
+base.budget_activity_group_10,ประชุมคณะกรรมการอำนวยการ (กอวช.)
+base.budget_activity_group_11,ประชุมคณะกรรมการ/คณะอนุกรรมการ/คณะทำงาน ภายใต้สอวช. หรือภายใต้ กอวช.
+base.budget_activity_group_12,จ้างที่ปรึกษา/ ผู้เชี่ยวชาญ/ ลูกจ้าง
+base.budget_activity_group_13,บันทึกข้อตกลงความร่วมมือ (MOU)
+base.budget_activity_group_14,จ้างเหมาบริการ
+base.budget_activity_group_15,จัดทำรายงานและเอกสาร
+base.budget_activity_group_16,จัดทำกิจกรรมสื่อสารและเผยแพร่
+base.budget_activity_group_17,เงินเดือน
+base.budget_activity_group_18,กองทุนสำรองเลี้ยงชีพ
+base.budget_activity_group_19,ค่าเช่าพื้นที่สำนักงาน
+base.budget_activity_group_20,ค่าเช่ารถประจำตำแหน่ง
+base.budget_activity_group_21,สาธารณูปโภค
+base.budget_activity_group_22,ครุภัณฑ์
+base.budget_activity_group_23,ค่าใช้สอยอื่นๆ
+base.budget_activity_group_24,การจัดหาระบบฐานข้อมูล ระบบคอมพิวเตอร์
+base.budget_activity_group_25,ค่าบริการเครือข่าย
+base.budget_activity_group_26,ค่าบริการโทรคมนาคม
+base.budget_activity_group_27,ค่ารักษาพยาบาล และสวัสดิการเลือกได้อิสระ
+base.budget_activity_group_28,ค่าวัสดุ
+base.budget_activity_group_29,ค่าเช่าทรัพย์สิน

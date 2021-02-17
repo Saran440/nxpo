@@ -29,7 +29,6 @@
         "hr_expense_sequence",
         "hr_expense_operating_unit",
         "hr_expense_advance_clearing_detail",
-        "hr_expense_advance_clearing_detail_operating_unit",
         "purchase_operating_unit",
         "purchase_request_operating_unit",
         "l10n_th_base_location",
@@ -53,7 +52,9 @@
         "budget_control_operating_unit",
         "budget_source_fund",
         "budget_source_fund_objective",
+        "budget_source_fund_revision",
         "budget_plan",
+        "budget_plan_revision",
         # "budget_source_fund_operating_unit", # May be this module is not used.
         "budget_activity",
         "budget_activity_group",
