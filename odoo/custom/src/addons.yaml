@@ -17,6 +17,7 @@ budgeting:
   - budget_control
   - budget_control_selection_plan
   - budget_control_advance_clearing
+  - budget_control_excel
   - budget_control_exception
   - budget_control_expense
   - budget_control_operating_unit
@@ -78,6 +79,8 @@ server-backend:
 server-tools:
   - base_exception
   - module_auto_update
+  - excel_import_export
+  - excel_import_export_demo
 hr-expense:
   - hr_expense_advance_clearing
   - hr_expense_advance_clearing_detail
