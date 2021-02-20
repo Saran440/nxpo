@@ -6,3 +6,5 @@ cerberus
 pyquerystring
 parse-accept-language
 apispec
+pandas
+openpyxl
