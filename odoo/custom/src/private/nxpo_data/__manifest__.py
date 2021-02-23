@@ -11,6 +11,7 @@
     "author": "Ecosoft",
     "depends": ["base"],
     "data": [
+        "data/res.users.csv",
         "data/res.project.csv",
         "data/budget.activity.group.csv",
         "data/budget.activity.csv",

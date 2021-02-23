@@ -53,7 +53,6 @@
         "budget_source_fund",
         "budget_source_fund_group",
         "budget_source_fund_objective",
-        # "budget_source_fund_revision",
         "budget_plan",
         "budget_plan_revision",
         # "budget_source_fund_operating_unit", # May be this module is not used.
@@ -62,6 +61,8 @@
         "budget_activity_monitoring",
         "budget_activity_monitoring_purchase_request",
         # "budget_monitoring_operating_unit",
+        "fund_constraint",
+        "fund_constraint_actual",
         # NxPO Modules
         "nxpo_budget_control_department",
         # "nxpo_budget_source_fund_department", # May be this module is not used.
