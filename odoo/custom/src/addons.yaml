@@ -34,12 +34,14 @@ budgeting:
   - budget_monitoring_operating_unit_purchase
   - budget_monitoring_operating_unit_purchase_request
   - budget_source_fund
+  - budget_source_fund_group
   - budget_source_fund_objective
-  - budget_source_fund_operating_unit
-  - budget_source_fund_exception
   - budget_source_fund_revision
   - budget_plan
+  - budget_plan_fund_constraint
   - budget_plan_revision
+  - fund_constraint
+  - fund_constraint_actual
   - hr_expense_advance_clearing_detail_activity
   - hr_expense_advance_clearing_detail_operating_unit
   - mis_builder_budget_activity_group
