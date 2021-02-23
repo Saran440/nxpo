@@ -54,6 +54,7 @@
         "budget_source_fund_group",
         "budget_source_fund_objective",
         "budget_plan",
+        "budget_plan_fund_constraint",
         "budget_plan_revision",
         # "budget_source_fund_operating_unit", # May be this module is not used.
         "budget_activity",

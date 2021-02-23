@@ -38,6 +38,7 @@ budgeting:
   - budget_source_fund_objective
   - budget_source_fund_revision
   - budget_plan
+  - budget_plan_fund_constraint
   - budget_plan_revision
   - fund_constraint
   - fund_constraint_actual
