@@ -145,6 +145,8 @@ server-tools:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/2022/head # excel_immport_export
+    - origin refs/pull/2028/head # base_name_search_improved
 
 server-backend:
   defaults:

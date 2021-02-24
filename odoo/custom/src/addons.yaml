@@ -81,6 +81,7 @@ server-tools:
   - module_auto_update
   - excel_import_export
   - excel_import_export_demo
+  - base_name_search_improved
 hr-expense:
   - hr_expense_advance_clearing
   - hr_expense_advance_clearing_detail
