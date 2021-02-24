@@ -26,6 +26,11 @@
                             'C1': 'amount${value or 0}#{style=number}',
                         }
                     },
+                    'AG': {
+                        'kpi_ids': {
+                            'A1': 'display_name${value or ""}#{style=text}',
+                        }
+                    },
                     'BudgetControl': {
                         '_HEAD_': {
                             'B3': 'analytic_account_id.display_name${value or ""}#{align=left;style=text}',
@@ -38,13 +43,16 @@
                         },
                     }
                 },
-
                 '__IMPORT__': {
-                    'RawData': {
+                    'ImportData': {
                         'item_ids': {
                             'A1': 'kpi_expression_id',
                             'B1': 'date_range_id',
                             'C1': 'amount',
+                            'D1': 'budget_id/id',
+                            'E1': 'date_from',
+                            'F1': 'date_to',
+                            'G1': 'analytic_account_id/id',
                         }
                     }
                 },
