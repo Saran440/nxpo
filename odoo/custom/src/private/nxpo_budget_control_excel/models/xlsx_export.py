@@ -35,4 +35,5 @@ class XLSXExport(models.AbstractModel):
             for c_idx, value in enumerate(row, pos[0]):
                 budget_control.cell(row=r_idx, column=c_idx, value=value)
             # Sum at the end of row
-            budget_control.cell(row=r_idx, column=c_idx + 1, value="=SUM(B9:M9)")
+            sum_row = "=SUM(B%s:M%s)" % (r_idx, r_idx)
+            budget_control.cell(row=r_idx, column=c_idx + 1, value=sum_row)

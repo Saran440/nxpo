@@ -3,3 +3,4 @@
 
 from . import xlsx_export
 from . import xlsx_import
+from . import budget_control
