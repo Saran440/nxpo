@@ -15,7 +15,7 @@ budgeting:
   - budget_activity_purchase
   - budget_activity_purchase_request
   - budget_control
-  - budget_control_selection_plan
+  - budget_control_select_plan
   - budget_control_advance_clearing
   - budget_control_exception
   - budget_control_expense
