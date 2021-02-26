@@ -73,6 +73,8 @@
         "nxpo_res_project_department",
         "nxpo_res_project_member",
         "nxpo_res_project_monitoring_report",
+        "nxpo_res_program",
+        "nxpo_res_program_fund_constraint",
         "nxpo_budget_control_display",
         "nxpo_budget_transfer_department",
         "nxpo_budget_revision_monitoring_project",
