@@ -26,6 +26,9 @@
             <field name="assignee_id" position="attributes">
                 <attribute name="invisible">True</attribute>
             </field>
+            <xpath expr="//button[@name='action_select_plan']" position="attributes">
+                <attribute name="string">Select Activity Group</attribute>
+            </xpath>
         </field>
     </record>
 

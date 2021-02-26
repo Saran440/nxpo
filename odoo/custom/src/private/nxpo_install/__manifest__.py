@@ -73,7 +73,7 @@
         "nxpo_res_project_department",
         "nxpo_res_project_member",
         "nxpo_res_project_monitoring_report",
-        "nxpo_budget_invisible",
+        "nxpo_budget_control_display",
         "nxpo_budget_transfer_department",
         "nxpo_budget_revision_monitoring_project",
         "nxpo_advance_clearing_detail_analytic",
