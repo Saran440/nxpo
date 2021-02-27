@@ -1,6 +1,6 @@
 # Copyright 2021 Ecosoft Co., Ltd. (http://ecosoft.co.th)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
-from odoo import fields, models
+from odoo import _, fields, models
 
 
 class ResProgramAllocation(models.Model):
@@ -26,6 +26,7 @@ class ResProgramAllocation(models.Model):
         readonly=True,
         states={"draft": [("readonly", "=", False)]},
     )
+    plan_id = fields.Many2one(comodel_name="budget.plan")
     active = fields.Boolean(default=True)
     state = fields.Selection(
         [
@@ -45,3 +46,30 @@ class ResProgramAllocation(models.Model):
 
     def action_cancel(self):
         return self.write({"state": "cancel"})
+
+    def _prepare_vals_budget_plan(self):
+        vals = {
+            "name": self.name,
+            "budget_period_id": self.budget_period_id.id,
+        }
+        return vals
+
+    def action_generate_budget_plan(self):
+        self.ensure_one()
+        BudgetPlan = self.env["budget.plan"]
+        vals = self._prepare_vals_budget_plan()
+        plan_id = BudgetPlan.create(vals)
+        self.write({"plan_id": plan_id.id})
+        plan_id.action_generate_plan()
+        return plan_id
+
+    def button_open_budget_plan(self):
+        self.ensure_one()
+        return {
+            "name": _("Budget Plan"),
+            "type": "ir.actions.act_window",
+            "res_model": "budget.plan",
+            "view_mode": "form",
+            "res_id": self.plan_id.id,
+            "context": self.env.context,
+        }

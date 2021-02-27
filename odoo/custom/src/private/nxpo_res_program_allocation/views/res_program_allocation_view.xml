@@ -54,6 +54,14 @@
             <form string="Fund Constraint">
                 <header>
                     <button
+                        id="action_generate_budget_plan"
+                        name="action_generate_budget_plan"
+                        string="Generate Budget Plan"
+                        class="btn-primary"
+                        type="object"
+                        attrs="{'invisible': ['|', ('plan_id', '!=', False), ('state', '!=', 'done')]}"
+                    />
+                    <button
                         id="action_done"
                         name="action_done"
                         string="Done"
@@ -78,6 +86,17 @@
                     <field name="state" widget="statusbar" />
                 </header>
                 <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button
+                            name="button_open_budget_plan"
+                            type="object"
+                            class="oe_stat_button"
+                            icon="fa-bars"
+                            attrs="{'invisible': [('plan_id', '=', False)]}"
+                        >
+                            Budget Plan
+                        </button>
+                    </div>
                     <widget
                         name="web_ribbon"
                         title="Archived"
@@ -93,6 +112,7 @@
                     <group>
                         <group name="program_allocation_left">
                             <field name="budget_period_id" />
+                            <field name="plan_id" invisible="1" />
                         </group>
                         <group name="program_allocation_right">
                             <field name="active" />
@@ -104,11 +124,15 @@
                                 <tree editable="bottom">
                                     <field name="name" />
                                     <field name="program_id" />
-                                    <field name="analytic_account_id" />
+                                    <field name="period_id" invisible="1" />
+                                    <field
+                                        name="analytic_account_id"
+                                        domain="[('budget_period_id', '=', period_id)]"
+                                    />
                                     <field name="fund_id" />
-                                    <field name="budget_control_id" optional="show" />
+                                    <field name="budget_control_id" optional="hide" />
                                     <field name="budget_period_id" optional="show" />
-                                    <field name="fund_amount" />
+                                    <field name="fund_amount" sum="Total Amount" />
                                     <field
                                         name="active"
                                         widget="boolean_toggle"
