@@ -1,0 +1,5 @@
+id,name,is_activity,kpi_ids/name,kpi_ids/description,kpi_ids/budget_activity_group,kpi_ids/respectively_variation,kpi_ids/budgetable,kpi_ids/not_affect_budget,kpi_ids/activity_expression,kpi_ids/expression
+base.nxpo_kpi,KPI,TRUE,ag01,จ้างเหมาบริการ,จ้างเหมาบริการ,p,True,True,TRUE,
+,,,ag02,จัดทำรายงานและเอกสาร,จัดทำรายงานและเอกสาร,p,True,True,TRUE,
+,,,ag03,สาธารณูปโภค,สาธารณูปโภค,p,True,True,TRUE,
+,,,total,Total,,,False,True,FALSE,ag01+ag02+ag03
