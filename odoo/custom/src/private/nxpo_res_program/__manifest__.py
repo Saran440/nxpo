@@ -2,14 +2,18 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 
 {
-    "name": "NxPO - Invisible all in budget",
-    "summary": "Hide menu, fields or else on budget for NxPO",
+    "name": "NxPO - Program",
+    "summary": "New menu Program master data",
     "version": "14.0.1.0.0",
     "license": "AGPL-3",
     "category": "NxPO",
     "author": "Ecosoft",
-    "depends": ["budget_control"],
-    "data": ["views/budget_control_view.xml"],
+    "depends": ["fund_constraint"],
+    "data": [
+        "security/res_program_security.xml",
+        "security/ir.model.access.csv",
+        "views/res_program_views.xml",
+    ],
     "maintainers": ["Saran440"],
     "development_status": "Alpha",
 }

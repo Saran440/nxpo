@@ -15,6 +15,7 @@
         "data/res.project.csv",
         "data/budget.activity.group.csv",
         "data/budget.activity.csv",
+        "data/mis.report.csv",
     ],
     "installable": True,
 }
