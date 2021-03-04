@@ -80,6 +80,7 @@
         "nxpo_budget_transfer_program",
         "nxpo_budget_revision_monitoring_project",
         "nxpo_advance_clearing_detail_analytic",
+        "nxpo_budget_control_excel",
     ],
     "installable": True,
 }
