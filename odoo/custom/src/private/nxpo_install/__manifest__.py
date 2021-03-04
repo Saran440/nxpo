@@ -69,7 +69,7 @@
         "nxpo_res_project_analytic",
         "nxpo_res_project_department",
         "nxpo_res_project_member",
-        # "nxpo_res_project_monitoring_report",
+        "nxpo_res_project_monitoring",
         "nxpo_res_program",
         "nxpo_res_program_allocation",
         "nxpo_budget_control_display",
