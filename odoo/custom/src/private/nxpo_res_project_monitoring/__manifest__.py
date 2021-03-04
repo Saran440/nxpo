@@ -8,13 +8,7 @@
     "license": "AGPL-3",
     "category": "NxPO",
     "author": "Ecosoft",
-    "depends": [
-        "budget_control",
-        "budget_monitoring_operating_unit",
-        "budget_monitoring_operating_unit_purchase",
-        "budget_monitoring_operating_unit_purchase_request",
-        "budget_monitoring_operating_unit_expense",
-    ],
+    "depends": ["nxpo_res_project", "budget_control"],
     "data": [
         "report/budget_monitor_report_view.xml",
     ],

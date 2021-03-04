@@ -42,6 +42,7 @@ budgeting:
   - budget_plan_fund_constraint
   - budget_plan_revision
   - fund_constraint
+  - fund_constraint_sequence
   - fund_constraint_actual
   - hr_expense_advance_clearing_detail_activity
   - hr_expense_advance_clearing_detail_operating_unit
