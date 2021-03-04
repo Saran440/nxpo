@@ -13,6 +13,7 @@
     "data": [
         "security/ir.model.access.csv",
         "views/fund_constraint_view.xml",
+        "views/budget_control_view.xml",
         "views/res_program_allocation_view.xml",
     ],
     "installable": True,
