@@ -65,6 +65,9 @@ class XLSXImport(models.AbstractModel):
                 )
         # Create data frame from mis.budget.item data table, and return as new excel
         result_df = pd.DataFrame(budget_items)
+        # Ensure amount is summed for the same keys
+        result_df = result_df.groupby([0, 1, 3, 4, 5, 6])[[2]].sum()
+        result_df = result_df.reset_index().sort_index(axis=1)
         new_content = BytesIO()
         result_df.to_excel(
             new_content, sheet_name="ImportData", index=False, header=False
