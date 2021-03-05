@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_res_program_tree" model="ir.ui.view">
+        <field name="name">res.program.tree</field>
+        <field name="model">res.program</field>
+        <field name="inherit_id" ref="nxpo_res_program.view_res_program_tree" />
+        <field name="arch" type="xml">
+            <field name="name" position="before">
+                <field name="code" />
+            </field>
+        </field>
+    </record>
+
+    <record id="view_res_program_form" model="ir.ui.view">
+        <field name="name">res.program.form</field>
+        <field name="model">res.program</field>
+        <field name="inherit_id" ref="nxpo_res_program.view_res_program_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='main_left_program']" position="inside">
+                <field name="code" />
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_res_program_filter" model="ir.ui.view">
+        <field name="name">res.program.select</field>
+        <field name="model">res.program</field>
+        <field name="inherit_id" ref="nxpo_res_program.view_res_program_filter" />
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <field name="code" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
