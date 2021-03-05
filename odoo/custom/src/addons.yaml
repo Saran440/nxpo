@@ -44,6 +44,8 @@ budgeting:
   - fund_constraint
   - fund_constraint_sequence
   - fund_constraint_actual
+  - fund_constraint_display_code
+  - base_display_name
   - hr_expense_advance_clearing_detail_activity
   - hr_expense_advance_clearing_detail_operating_unit
   - mis_builder_budget_activity_group

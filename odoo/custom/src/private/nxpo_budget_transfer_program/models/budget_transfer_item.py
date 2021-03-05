@@ -10,6 +10,7 @@ class BudgetTransferItem(models.Model):
 
     target_program_id = fields.Many2one(
         comodel_name="res.program",
+        string="Destination Program",
         compute="_compute_program_id",
         store="True",
         readonly=False,
