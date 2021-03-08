@@ -88,5 +88,7 @@ class BudgetTransferItem(models.Model):
             cross_constraint = source_fund_constraint.fund_constraint_line.filtered(
                 lambda l: target_fund_constraint.id == l.id
             )
-            if not cross_constraint:
+            if not cross_constraint and (
+                rec.source_program_id != rec.target_program_id
+            ):
                 raise UserError(_("Must be the same program."))
