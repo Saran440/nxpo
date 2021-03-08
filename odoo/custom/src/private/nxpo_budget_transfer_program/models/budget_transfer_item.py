@@ -10,7 +10,7 @@ class BudgetTransferItem(models.Model):
 
     target_program_id = fields.Many2one(
         comodel_name="res.program",
-        string="Destination Program",
+        string="Target Program",
         compute="_compute_program_id",
         store="True",
         readonly=False,
@@ -63,5 +63,30 @@ class BudgetTransferItem(models.Model):
             rec.source_program_all = rec._get_program(rec.source_budget_control_id)
 
     def _check_fund_constraint(self):
-        if any(rec.target_program_id != rec.source_program_id for rec in self):
-            raise UserError(_("Must be the same program."))
+        """
+        Check fund constraint can cross over constraint.
+        i.e.
+        Analytic | Program | Fund Constraint | Cross Over
+        ==================================================
+        A        | A       | A               | B, C
+        B        | B       | B               |
+        C        | C       | C               |
+        ==================================================
+        Normally, you can't transfer Program A to other program.
+        If you config Fund Constraint cross over Program B, C on A,
+        you can transfer Program A to B or C.
+        """
+        for rec in self:
+            source_budget = rec.source_budget_control_id
+            target_budget = rec.target_budget_control_id
+            source_fund_constraint = source_budget.fund_constraint.filtered(
+                lambda l: l.program_id == rec.source_program_id
+            )
+            target_fund_constraint = target_budget.fund_constraint.filtered(
+                lambda l: l.program_id == rec.target_program_id
+            )
+            cross_constraint = source_fund_constraint.fund_constraint_line.filtered(
+                lambda l: target_fund_constraint.id == l.id
+            )
+            if not cross_constraint:
+                raise UserError(_("Must be the same program."))
