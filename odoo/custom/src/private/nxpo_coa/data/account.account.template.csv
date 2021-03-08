@@ -44,9 +44,9 @@ account_13105101,13105101,ค่าตัดจำหน่ายสะสม-�
 a_input_vat,1510,Input VAT,Current Assets,nxpo_coa.chart,FALSE
 account_20000000,20000000,หนี้สิน,Current Liabilities,nxpo_coa.chart,FALSE
 account_21000000,21000000,หนี้สินหมุนเวียน,Current Liabilities,nxpo_coa.chart,FALSE
-a_pay,21010000,เจ้าหนี้การค้า,Current Liabilities,nxpo_coa.chart,TRUE
-account_21010101,21010101,เจ้าหนี้การค้า - ในประเทศ,Current Liabilities,nxpo_coa.chart,TRUE
-account_21010201,21010201,เจ้าหนี้การค้า - ต่างประเทศ,Current Liabilities,nxpo_coa.chart,TRUE
+a_pay,21010000,เจ้าหนี้การค้า,Payable,nxpo_coa.chart,TRUE
+account_21010101,21010101,เจ้าหนี้การค้า - ในประเทศ,Payable,nxpo_coa.chart,TRUE
+account_21010201,21010201,เจ้าหนี้การค้า - ต่างประเทศ,Payable,nxpo_coa.chart,TRUE
 account_21020000,21020000,เจ้าหนี้อื่น,Current Liabilities,nxpo_coa.chart,FALSE
 account_21020201,21020201,เจ้าหนี้พนักงาน,Current Liabilities,nxpo_coa.chart,TRUE
 account_21020301,21020301,เงินรอรับรู้,Current Liabilities,nxpo_coa.chart,TRUE
